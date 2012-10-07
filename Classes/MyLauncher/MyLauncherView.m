@@ -144,6 +144,7 @@ static const CGFloat iPadLandscapeYPadding = 30;
 - (void)dealloc
 {
     [self removeObserver:self forKeyPath:@"frame"];
+    [super dealloc];
 }
 
 #pragma mark - Setters
