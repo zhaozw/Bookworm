@@ -21,7 +21,7 @@
 #import "RootViewController.h"
 #import "MyLauncherItem.h"
 #import "CustomBadge.h"
-#import "ItemViewController.h"
+#import "ExamplesViewController.h"
 
 
 @implementation RootViewController
@@ -31,7 +31,7 @@
 	[super loadView];
     self.title = @"Bookworm";
     
-    [[self appControllers] setObject:[ItemViewController class] forKey:@"ItemViewController"];
+    [[self appControllers] setObject:[ExamplesViewController class] forKey:@"ExamplesViewController"];
     
     //Add your view controllers here to be picked up by the launcher; remember to import them above
 	//[[self appControllers] setObject:[MyCustomViewController class] forKey:@"MyCustomViewController"];
@@ -45,68 +45,68 @@
     //deletable:this item is deletable or not
 	if(![self hasSavedLauncherItems])
 	{
-		[self.launcherView setPages:[NSMutableArray arrayWithObjects: 
-                                     [NSMutableArray arrayWithObjects: 
+		[self.launcherView setPages:[[NSMutableArray alloc ]initWithObjects:
+                                     [[NSMutableArray alloc ]initWithObjects:
                                       [[MyLauncherItem alloc] initWithTitle:@"Item 1"
                                                                  iPhoneImage:@"itemImage" 
                                                                    iPadImage:@"itemImage-iPad"
-                                                                      target:@"ItemViewController" 
+                                                                      target:@"ExamplesViewController"
                                                                  targetTitle:@"Item 1 View"
                                                                    deletable:NO],
                                       [[MyLauncherItem alloc] initWithTitle:@"Item 2"
                                                                  iPhoneImage:@"itemImage" 
                                                                    iPadImage:@"itemImage-iPad"
-                                                                      target:@"ItemViewController" 
+                                                                      target:@"ExamplesViewController" 
                                                                  targetTitle:@"Item 2 View" 
                                                                    deletable:NO],
                                       [[MyLauncherItem alloc] initWithTitle:@"Item 3"
                                                                  iPhoneImage:@"itemImage" 
                                                                    iPadImage:@"itemImage-iPad"
-                                                                      target:@"ItemViewController" 
+                                                                      target:@"ExamplesViewController" 
                                                                  targetTitle:@"Item 3 View"
                                                                    deletable:YES],
                                       [[MyLauncherItem alloc] initWithTitle:@"Item 4"
                                                                  iPhoneImage:@"itemImage" 
                                                                    iPadImage:@"itemImage-iPad"
-                                                                      target:@"ItemViewController" 
+                                                                      target:@"ExamplesViewController" 
                                                                  targetTitle:@"Item 4 View"
                                                                    deletable:NO],
                                       [[MyLauncherItem alloc] initWithTitle:@"Item 5"
                                                                  iPhoneImage:@"itemImage" 
                                                                    iPadImage:@"itemImage-iPad"
-                                                                      target:@"ItemViewController" 
+                                                                      target:@"ExamplesViewController" 
                                                                  targetTitle:@"Item 5 View"
                                                                    deletable:YES],
                                       [[MyLauncherItem alloc] initWithTitle:@"Item 6"
                                                                  iPhoneImage:@"itemImage" 
                                                                    iPadImage:@"itemImage-iPad"
-                                                                      target:@"ItemViewController" 
+                                                                      target:@"ExamplesViewController" 
                                                                  targetTitle:@"Item 6 View"
                                                                    deletable:NO],
                                       [[MyLauncherItem alloc] initWithTitle:@"Item 7"
                                                                  iPhoneImage:@"itemImage" 
                                                                    iPadImage:@"itemImage-iPad"
-                                                                      target:@"ItemViewController" 
+                                                                      target:@"ExamplesViewController" 
                                                                  targetTitle:@"Item 7 View"
                                                                    deletable:NO],
                                       nil], 
-                                     [NSMutableArray arrayWithObjects: 
+                                     [[NSMutableArray alloc ]initWithObjects:
                                       [[MyLauncherItem alloc] initWithTitle:@"Item 8"
                                                                  iPhoneImage:@"itemImage" 
                                                                    iPadImage:@"itemImage-iPad"
-                                                                      target:@"ItemViewController" 
+                                                                      target:@"ExamplesViewController" 
                                                                  targetTitle:@"Item 8 View"
                                                                    deletable:NO],
                                       [[MyLauncherItem alloc] initWithTitle:@"Item 9"
                                                                  iPhoneImage:@"itemImage" 
                                                                    iPadImage:@"itemImage-iPad"
-                                                                      target:@"ItemViewController" 
+                                                                      target:@"ExamplesViewController" 
                                                                  targetTitle:@"Item 9 View"
                                                                    deletable:YES],
                                       [[MyLauncherItem alloc] initWithTitle:@"Item 10"
                                                                  iPhoneImage:@"itemImage" 
                                                                    iPadImage:@"itemImage-iPad"
-                                                                      target:@"ItemViewController" 
+                                                                      target:@"ExamplesViewController" 
                                                                  targetTitle:@"Item 10 View"
                                                                    deletable:NO],
                                       nil],

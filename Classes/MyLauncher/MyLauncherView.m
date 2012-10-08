@@ -305,7 +305,6 @@ static const CGFloat iPadLandscapeYPadding = 30;
 	CGFloat pageWidth = self.pagesScrollView.frame.size.width;
 	
     [self setupCurrentViewLayoutSettings];
-    
 	for (NSMutableArray *page in self.pages)
 	{
         CGFloat x = minX;

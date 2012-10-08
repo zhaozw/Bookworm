@@ -52,7 +52,7 @@
 @property (nonatomic, strong) id <MyLauncherViewDelegate> delegate;
 @property (nonatomic, strong) MyLauncherScrollView *pagesScrollView;
 @property (nonatomic, strong) MyLauncherPageControl *pageControl;
-@property (nonatomic, strong) NSMutableArray *pages;
+@property (nonatomic, retain) NSMutableArray *pages;
 
 // Default for animation below is YES
 
