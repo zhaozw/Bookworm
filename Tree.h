@@ -2,7 +2,7 @@
 //  Tree.h
 //  MyLauncher
 //
-//  Created by ramonqlee on 10/13/12.
+//  Created by ramonqlee on 10/14/12.
 //
 //
 
@@ -19,5 +19,6 @@
 @property (nonatomic, retain) NSString * url;
 @property (nonatomic, retain) NSString * filename;
 @property (nonatomic, retain) NSString * filesize;
+@property (nonatomic, retain) NSString * category;
 
 @end

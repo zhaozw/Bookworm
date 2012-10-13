@@ -2,7 +2,7 @@
 //  Tree.m
 //  MyLauncher
 //
-//  Created by ramonqlee on 10/13/12.
+//  Created by ramonqlee on 10/14/12.
 //
 //
 
@@ -18,5 +18,6 @@
 @dynamic url;
 @dynamic filename;
 @dynamic filesize;
+@dynamic category;
 
 @end

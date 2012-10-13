@@ -12,9 +12,11 @@
 		04975D5116295F32006C66EE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04975D5016295F32006C66EE /* CoreFoundation.framework */; };
 		04975D531629A104006C66EE /* readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 04975D521629A104006C66EE /* readme.rtf */; };
 		04975D561629A3A7006C66EE /* Tree1.0.0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04975D541629A3A7006C66EE /* Tree1.0.0.xcdatamodeld */; };
-		04975D5F1629A559006C66EE /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D5E1629A559006C66EE /* Tree.m */; };
 		04975D651629A729006C66EE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04975D641629A728006C66EE /* CoreData.framework */; };
 		04975D681629A793006C66EE /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D671629A793006C66EE /* GDataXMLNode.m */; };
+		04975D6B162A2A20006C66EE /* BookStoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D6A162A2A20006C66EE /* BookStoreData.m */; };
+		04975D6E162A30D6006C66EE /* CoreDataMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D6D162A30D6006C66EE /* CoreDataMgr.m */; };
+		04975D75162A324B006C66EE /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D74162A324B006C66EE /* Tree.m */; };
 		04A82FF71623900F00FAE668 /* ExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FDC1623900F00FAE668 /* ExamplesViewController.m */; };
 		04A82FF81623900F00FAE668 /* ImageExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FDE1623900F00FAE668 /* ImageExampleViewController.m */; };
 		04A82FF91623900F00FAE668 /* LeavesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FE01623900F00FAE668 /* LeavesAppDelegate.m */; };
@@ -105,11 +107,15 @@
 		04975D5016295F32006C66EE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		04975D521629A104006C66EE /* readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = readme.rtf; sourceTree = "<group>"; };
 		04975D551629A3A7006C66EE /* Tree1.0.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tree1.0.0.xcdatamodel; sourceTree = "<group>"; };
-		04975D5D1629A559006C66EE /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
-		04975D5E1629A559006C66EE /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		04975D641629A728006C66EE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		04975D661629A792006C66EE /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		04975D671629A793006C66EE /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		04975D69162A2A20006C66EE /* BookStoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreData.h; sourceTree = "<group>"; };
+		04975D6A162A2A20006C66EE /* BookStoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreData.m; sourceTree = "<group>"; };
+		04975D6D162A30D6006C66EE /* CoreDataMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataMgr.m; sourceTree = "<group>"; };
+		04975D72162A3192006C66EE /* CoreDataMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataMgr.h; sourceTree = "<group>"; };
+		04975D73162A324B006C66EE /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		04975D74162A324B006C66EE /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		04A82FDB1623900F00FAE668 /* ExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesViewController.h; sourceTree = "<group>"; };
 		04A82FDC1623900F00FAE668 /* ExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesViewController.m; sourceTree = "<group>"; };
 		04A82FDD1623900F00FAE668 /* ImageExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageExampleViewController.h; sourceTree = "<group>"; };
@@ -486,14 +492,18 @@
 		04B84D1D1621C4D900CF0A46 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04975D73162A324B006C66EE /* Tree.h */,
+				04975D74162A324B006C66EE /* Tree.m */,
+				04975D72162A3192006C66EE /* CoreDataMgr.h */,
+				04975D6D162A30D6006C66EE /* CoreDataMgr.m */,
 				04975D661629A792006C66EE /* GDataXMLNode.h */,
 				04975D671629A793006C66EE /* GDataXMLNode.m */,
-				04975D5D1629A559006C66EE /* Tree.h */,
-				04975D5E1629A559006C66EE /* Tree.m */,
 				04B84D1E1621C4F700CF0A46 /* FileModel.h */,
 				04B84D1F1621C4F700CF0A46 /* FileModel.m */,
 				04B84D201621C4F700CF0A46 /* PageModel.h */,
 				04B84D211621C4F700CF0A46 /* PageModel.m */,
+				04975D69162A2A20006C66EE /* BookStoreData.h */,
+				04975D6A162A2A20006C66EE /* BookStoreData.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -767,8 +777,10 @@
 				04A82FFE1623900F00FAE668 /* LeavesViewController.m in Sources */,
 				04A82FFF1623900F00FAE668 /* Utilities.m in Sources */,
 				04975D561629A3A7006C66EE /* Tree1.0.0.xcdatamodeld in Sources */,
-				04975D5F1629A559006C66EE /* Tree.m in Sources */,
 				04975D681629A793006C66EE /* GDataXMLNode.m in Sources */,
+				04975D6B162A2A20006C66EE /* BookStoreData.m in Sources */,
+				04975D6E162A30D6006C66EE /* CoreDataMgr.m in Sources */,
+				04975D75162A324B006C66EE /* Tree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

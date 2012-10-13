@@ -28,6 +28,9 @@
 #import "DownloadCell.h"
 #import <AVFoundation/AVAudioPlayer.h>
 
+#define MANAGED_CONTEXT [((AppDelegate*)[[UIApplication sharedApplication]delegate]) managedObjectContext]
+#define APPDELEGATE    [[UIApplication sharedApplication]delegate]
+
 #define kFileDownloadSuccess @"kFileDownloadSuccess"
 @class MyLauncherViewController;
 
