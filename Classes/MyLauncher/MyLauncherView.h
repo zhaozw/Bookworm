@@ -55,7 +55,7 @@
 @property (nonatomic, retain) NSMutableArray *pages;
 
 // Default for animation below is YES
-
+-(void)addPages:(NSMutableArray *)pages refreshhRightNow:(BOOL)refresh;
 -(void)setPages:(NSMutableArray *)pages animated:(BOOL)animated;
 -(void)setPages:(NSMutableArray *)pages numberOfImmovableItems:(NSInteger)items;
 -(void)setPages:(NSMutableArray *)pages numberOfImmovableItems:(NSInteger)items animated:(BOOL)animated;

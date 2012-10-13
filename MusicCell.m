@@ -28,6 +28,7 @@
 -(void)downMusic:(id)sender
 {    
     FileModel *selectFileInfo=self.fileInfo;
+    //selectFileInfo.fileURL = @"http://www.idreems.com/example.php?iOSUIGuide.pdf";
     
     //选择点击的行
 //    UITableView *tableView=(UITableView *)[sender superview];

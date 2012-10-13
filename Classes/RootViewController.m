@@ -22,6 +22,8 @@
 #import "MyLauncherItem.h"
 #import "CustomBadge.h"
 #import "ExamplesViewController.h"
+#import "BaiduMusicViewController.h"
+#import "DownloadViewController.h"
 
 
 @implementation RootViewController
@@ -31,6 +33,7 @@
 	[super loadView];
     self.title = @"Bookworm";
     
+           
     [[self appControllers] setObject:[ExamplesViewController class] forKey:@"ExamplesViewController"];
     
     //Add your view controllers here to be picked up by the launcher; remember to import them above
@@ -52,65 +55,9 @@
                                                                    iPadImage:@"itemImage-iPad"
                                                                       target:@"ExamplesViewController"
                                                                  targetTitle:@"Item 1 View"
-                                                                   deletable:NO],
-                                      [[MyLauncherItem alloc] initWithTitle:@"Item 2"
-                                                                 iPhoneImage:@"itemImage" 
-                                                                   iPadImage:@"itemImage-iPad"
-                                                                      target:@"ExamplesViewController" 
-                                                                 targetTitle:@"Item 2 View" 
-                                                                   deletable:NO],
-                                      [[MyLauncherItem alloc] initWithTitle:@"Item 3"
-                                                                 iPhoneImage:@"itemImage" 
-                                                                   iPadImage:@"itemImage-iPad"
-                                                                      target:@"ExamplesViewController" 
-                                                                 targetTitle:@"Item 3 View"
                                                                    deletable:YES],
-                                      [[MyLauncherItem alloc] initWithTitle:@"Item 4"
-                                                                 iPhoneImage:@"itemImage" 
-                                                                   iPadImage:@"itemImage-iPad"
-                                                                      target:@"ExamplesViewController" 
-                                                                 targetTitle:@"Item 4 View"
-                                                                   deletable:NO],
-                                      [[MyLauncherItem alloc] initWithTitle:@"Item 5"
-                                                                 iPhoneImage:@"itemImage" 
-                                                                   iPadImage:@"itemImage-iPad"
-                                                                      target:@"ExamplesViewController" 
-                                                                 targetTitle:@"Item 5 View"
-                                                                   deletable:YES],
-                                      [[MyLauncherItem alloc] initWithTitle:@"Item 6"
-                                                                 iPhoneImage:@"itemImage" 
-                                                                   iPadImage:@"itemImage-iPad"
-                                                                      target:@"ExamplesViewController" 
-                                                                 targetTitle:@"Item 6 View"
-                                                                   deletable:NO],
-                                      [[MyLauncherItem alloc] initWithTitle:@"Item 7"
-                                                                 iPhoneImage:@"itemImage" 
-                                                                   iPadImage:@"itemImage-iPad"
-                                                                      target:@"ExamplesViewController" 
-                                                                 targetTitle:@"Item 7 View"
-                                                                   deletable:NO],
-                                      nil], 
-                                     [[NSMutableArray alloc ]initWithObjects:
-                                      [[MyLauncherItem alloc] initWithTitle:@"Item 8"
-                                                                 iPhoneImage:@"itemImage" 
-                                                                   iPadImage:@"itemImage-iPad"
-                                                                      target:@"ExamplesViewController" 
-                                                                 targetTitle:@"Item 8 View"
-                                                                   deletable:NO],
-                                      [[MyLauncherItem alloc] initWithTitle:@"Item 9"
-                                                                 iPhoneImage:@"itemImage" 
-                                                                   iPadImage:@"itemImage-iPad"
-                                                                      target:@"ExamplesViewController" 
-                                                                 targetTitle:@"Item 9 View"
-                                                                   deletable:YES],
-                                      [[MyLauncherItem alloc] initWithTitle:@"Item 10"
-                                                                 iPhoneImage:@"itemImage" 
-                                                                   iPadImage:@"itemImage-iPad"
-                                                                      target:@"ExamplesViewController" 
-                                                                 targetTitle:@"Item 10 View"
-                                                                   deletable:NO],
                                       nil],
-                                     nil]];
+                                      nil]];
         
         // Set number of immovable items below; only set it when you are setting the pages as the 
         // user may still be able to delete these items and setting this then will cause movable 
@@ -126,9 +73,26 @@
     
     // Alternatively, you can import CustomBadge.h as above and setCustomBadge: as below.
     // This will allow you to change colors, set scale, and remove the shine and/or frame.
-    [(MyLauncherItem *)[[[self.launcherView pages] objectAtIndex:0] objectAtIndex:1] setCustomBadge:[CustomBadge customBadgeWithString:@"2" withStringColor:[UIColor blackColor] withInsetColor:[UIColor whiteColor] withBadgeFrame:YES withBadgeFrameColor:[UIColor blackColor] withScale:0.8 withShining:NO]];
+    //[(MyLauncherItem *)[[[self.launcherView pages] objectAtIndex:0] objectAtIndex:1] setCustomBadge:[CustomBadge customBadgeWithString:@"2" withStringColor:[UIColor blackColor] withInsetColor:[UIColor whiteColor] withBadgeFrame:YES withBadgeFrameColor:[UIColor blackColor] withScale:0.8 withShining:NO]];
     
-    [(MyLauncherItem *)[[[self.launcherView pages] objectAtIndex:0] objectAtIndex:2] setCustomBadge:[CustomBadge customBadgeWithString:@"6" withStringColor:[UIColor whiteColor] withInsetColor:[UIColor redColor] withBadgeFrame:YES withBadgeFrameColor:[UIColor whiteColor] withScale:1 withShining:NO]];
+    //[(MyLauncherItem *)[[[self.launcherView pages] objectAtIndex:0] objectAtIndex:0] setCustomBadge:[CustomBadge customBadgeWithString:@"6" withStringColor:[UIColor whiteColor] withInsetColor:[UIColor redColor] withBadgeFrame:YES withBadgeFrameColor:[UIColor whiteColor] withScale:1 withShining:NO]];
+    
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(FileDownloadSuccess:) name:kFileDownloadSuccess object:nil];
+}
+-(void)FileDownloadSuccess:(NSNotification *)notification
+{
+    if (notification) {
+      FileModel* fileModel =  (FileModel*)notification.object;
+        if (fileModel) {
+            NSMutableArray * items = [[NSMutableArray alloc]initWithObjects:[[MyLauncherItem alloc] initWithTitle:@"Item x"
+                                                                                                      iPhoneImage:@"itemImage"
+                                                                                                        iPadImage:@"itemImage-iPad"
+                                                                                                           target:@"ExamplesViewController"
+                                                                                                      targetTitle:@"Item 1 View"
+                                                                                                        deletable:YES], nil];
+            [self.launcherView addPages:items refreshhRightNow:YES];
+        }
+    }
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
@@ -142,10 +106,57 @@
 {
     [super didReceiveMemoryWarning];
 }
+- (void)viewDidLoad
+{    
+    UIBarButtonItem* newButton = [[UIBarButtonItem alloc] initWithTitle: NSLocalizedString(@"Download",@"") style: UIBarButtonItemStyleBordered target: self action: @selector(openDownload)];
+    [[self navigationItem] setLeftBarButtonItem:newButton];
+    [newButton release];
 
+    
+	// "Segmented" control to the right
+	UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:
+                                            [NSArray arrayWithObjects:
+                                             [UIImage imageNamed:@"up.png"],
+                                             [UIImage imageNamed:@"down.png"],
+                                             nil]];
+	[segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
+	segmentedControl.frame = CGRectMake(0, 0, 90, 30.0);
+	segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
+	segmentedControl.momentary = YES;
+	   
+	UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl];
+    [segmentedControl release];
+    
+	self.navigationItem.rightBarButtonItem = segmentBarItem;
+    [segmentBarItem release];
+}
+- (IBAction)segmentAction:(id)sender
+{
+#define kOnlineStore 1
+	// The segmented control was clicked, handle it here
+	UISegmentedControl *segmentedControl = (UISegmentedControl *)sender;
+	NSLog(@"Segment clicked: %d", segmentedControl.selectedSegmentIndex);
+    if(segmentedControl.selectedSegmentIndex == kOnlineStore)
+    {
+        [self openOnlineStore];
+    }
+}
+-(IBAction)openOnlineStore
+{
+    UIViewController* controller = [[BaiduMusicViewController alloc]initWithNibName:@"BaiduMusicViewController" bundle:nil];
+    [self.navigationController pushViewController:controller animated:YES];
+    [controller release];
+}
+-(IBAction)openDownload
+{
+    UIViewController* controller = [[DownloadViewController alloc]initWithNibName:@"DownloadViewController" bundle:nil];
+    [self.navigationController pushViewController:controller animated:YES];
+    [controller release];
+}
 - (void)viewDidUnload 
 {
     [super viewDidUnload];
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
 }
 
 @end

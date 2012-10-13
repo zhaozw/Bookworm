@@ -414,6 +414,8 @@
     {
         [self.downloadDelegate finishedDownload:request];
     }
+    [[NSNotificationCenter defaultCenter]postNotificationName:kFileDownloadSuccess object:fileInfo];
+    
     [request release];
 }
 @end

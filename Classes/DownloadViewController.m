@@ -45,13 +45,30 @@
 -(void)showFinished
 {
     [self startFlipAnimation:0];
-    self.navigationItem.rightBarButtonItem=[[[UIBarButtonItem alloc]initWithTitle:@"正在下载的文件" style:UIBarButtonItemStylePlain target:self action:@selector(showDowning)]autorelease];
+    self.navigationItem.rightBarButtonItem=[[[UIBarButtonItem alloc]initWithTitle:@"正在下载的文件" style:UIBarButtonItemStylePlain target:self action:@selector(showDowning:)]autorelease];
 }
 
--(void)showDowning
-{
-    [self startFlipAnimation:1];
-    self.navigationItem.rightBarButtonItem=[[[UIBarButtonItem alloc]initWithTitle:@"已下载的文件" style:UIBarButtonItemStylePlain target:self action:@selector(showFinished)]autorelease];
+-(void)showDowning:(BOOL)switchMode{
+    if(switchMode)
+    {
+        [self startFlipAnimation:1];
+    }
+    UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:
+                                            [NSArray arrayWithObjects:
+                                             [UIImage imageNamed:@"up.png"],
+                                             [UIImage imageNamed:@"down.png"],
+                                             nil]];
+	[segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
+	segmentedControl.frame = CGRectMake(0, 0, 90, 30.0);
+	segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
+	segmentedControl.momentary = YES;
+    
+	UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl];
+    [segmentedControl release];
+    
+	self.navigationItem.rightBarButtonItem = segmentBarItem;
+    [segmentBarItem release];
+
 }
 
 
@@ -123,11 +140,27 @@
     self.finishedTable.backgroundView=finishedImg;
     [finishedImg release];
     
-    self.navigationItem.rightBarButtonItem=[[[UIBarButtonItem alloc]initWithTitle:@"已下载的文件" style:UIBarButtonItemStylePlain target:self action:@selector(showFinished)]autorelease];
     self.navigationItem.leftBarButtonItem=[[[UIBarButtonItem alloc]initWithTitle:@"编辑" style:UIBarButtonItemStylePlain target:self action:@selector(enterEdit)]autorelease];
-
+    [self showDowning:NO];
+        
 }
-
+- (IBAction)segmentAction:(id)sender
+{
+#define kDownloadedFile 0
+#define kReturn 1
+	// The segmented control was clicked, handle it here
+	UISegmentedControl *segmentedControl = (UISegmentedControl *)sender;
+	NSLog(@"Segment clicked: %d", segmentedControl.selectedSegmentIndex);
+    if(segmentedControl.selectedSegmentIndex == kDownloadedFile)
+    {
+        [self showFinished];
+    }
+    else if(segmentedControl.selectedSegmentIndex == kReturn)
+    {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
+    
+}
 - (void)viewDidUnload
 {
     [super viewDidUnload];

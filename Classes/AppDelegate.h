@@ -28,6 +28,7 @@
 #import "DownloadCell.h"
 #import <AVFoundation/AVAudioPlayer.h>
 
+#define kFileDownloadSuccess @"kFileDownloadSuccess"
 @class MyLauncherViewController;
 
 @interface AppDelegate : NSObject <UIApplicationDelegate,ASIHTTPRequestDelegate,ASIProgressDelegate> {

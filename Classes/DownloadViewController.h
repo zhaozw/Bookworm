@@ -27,7 +27,7 @@
 @property(nonatomic,retain)NSMutableArray *finishedList;
 
 -(void)showFinished;//查看已下载完成的文件视图
--(void)showDowning;//查看正在下载的文件视图
+-(void)showDowning:(BOOL)switchMode;//查看正在下载的文件视图
 -(void)startFlipAnimation:(NSInteger)type;//播放旋转动画,0从右向左，1从左向右
 -(void)updateCellOnMainThread:(FileModel *)fileInfo;//更新主界面的进度条和信息
 @end

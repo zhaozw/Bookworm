@@ -144,11 +144,37 @@ static const CGFloat iPadLandscapeYPadding = 30;
 - (void)dealloc
 {
     [self removeObserver:self forKeyPath:@"frame"];
+    [_pages release];
     [super dealloc];
 }
 
 #pragma mark - Setters
-
+-(void)addPages:(NSMutableArray *)pages refreshhRightNow:(BOOL)refresh
+{
+    NSMutableArray* pagesTmp = [[NSMutableArray alloc]init];
+    if (_pages) {
+        for (NSArray *page in _pages) {
+            for (UIView *item in page) {
+                [item removeFromSuperview];
+            }
+        }
+    }
+    if(_pages && [_pages count]>0)
+    {
+        [pagesTmp addObjectsFromArray:_pages];
+        for (NSObject* obj in pages) {
+            [[pagesTmp objectAtIndex:0]insertObject:obj atIndex:0];
+        }        
+    }
+    else
+    {        
+        [pagesTmp addObject:pages];
+    }
+    [_pages release];
+    _pages = nil;
+    [self setPages:pagesTmp];
+    [pagesTmp release];
+}
 -(void)setPages:(NSMutableArray *)pages {
     [self setPages:pages animated:YES];
 }
@@ -163,7 +189,7 @@ static const CGFloat iPadLandscapeYPadding = 30;
             }
         }
         
-        _pages = pages;
+        _pages = [[NSMutableArray alloc]initWithArray:pages];
         itemsAdded = NO;
         [self layoutLauncherAnimated:animated];
     }

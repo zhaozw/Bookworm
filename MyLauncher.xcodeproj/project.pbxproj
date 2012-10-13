@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04975D45162944D0006C66EE /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 04975D43162944D0006C66EE /* down.png */; };
+		04975D46162944D0006C66EE /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 04975D44162944D0006C66EE /* up.png */; };
 		04A82FF71623900F00FAE668 /* ExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FDC1623900F00FAE668 /* ExamplesViewController.m */; };
 		04A82FF81623900F00FAE668 /* ImageExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FDE1623900F00FAE668 /* ImageExampleViewController.m */; };
 		04A82FF91623900F00FAE668 /* LeavesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FE01623900F00FAE668 /* LeavesAppDelegate.m */; };
@@ -92,6 +94,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04975D43162944D0006C66EE /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = down.png; path = ../NavBar/images/down.png; sourceTree = "<group>"; };
+		04975D44162944D0006C66EE /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = up.png; path = ../NavBar/images/up.png; sourceTree = "<group>"; };
 		04A82FDB1623900F00FAE668 /* ExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesViewController.h; sourceTree = "<group>"; };
 		04A82FDC1623900F00FAE668 /* ExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesViewController.m; sourceTree = "<group>"; };
 		04A82FDD1623900F00FAE668 /* ImageExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageExampleViewController.h; sourceTree = "<group>"; };
@@ -564,6 +568,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04975D43162944D0006C66EE /* down.png */,
+				04975D44162944D0006C66EE /* up.png */,
 				0F93B7E61213AE4500BA0DB9 /* close.png */,
 				0F2C05871207A88D009D2ED9 /* launcher.png */,
 				7DA45DC81316AD6E00D5FA85 /* Images@iPad */,
@@ -681,6 +687,8 @@
 				04A830031623900F00FAE668 /* MainWindow.xib in Resources */,
 				04A830041623900F00FAE668 /* paper.pdf in Resources */,
 				04A830051623900F00FAE668 /* MainWindow-iPad.xib in Resources */,
+				04975D45162944D0006C66EE /* down.png in Resources */,
+				04975D46162944D0006C66EE /* up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
