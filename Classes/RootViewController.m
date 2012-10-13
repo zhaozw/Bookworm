@@ -24,7 +24,7 @@
 #import "ExamplesViewController.h"
 #import "BaiduMusicViewController.h"
 #import "DownloadViewController.h"
-
+#import "PDFExampleViewController.h"
 
 @implementation RootViewController
 
@@ -35,7 +35,8 @@
     
            
     [[self appControllers] setObject:[ExamplesViewController class] forKey:@"ExamplesViewController"];
-    
+    [[self appControllers] setObject:[PDFExampleViewController class] forKey:@"PDFExampleViewController"];
+   
     //Add your view controllers here to be picked up by the launcher; remember to import them above
 	//[[self appControllers] setObject:[MyCustomViewController class] forKey:@"MyCustomViewController"];
 	//[[self appControllers] setObject:[MyOtherCustomViewController class] forKey:@"MyOtherCustomViewController"];
@@ -87,8 +88,8 @@
             NSMutableArray * items = [[NSMutableArray alloc]initWithObjects:[[MyLauncherItem alloc] initWithTitle:@"Item x"
                                                                                                       iPhoneImage:@"itemImage"
                                                                                                         iPadImage:@"itemImage-iPad"
-                                                                                                           target:@"ExamplesViewController"
-                                                                                                      targetTitle:@"Item 1 View"
+                                                                                                           target:@"PDFExampleViewController"
+                                                                                                      targetTitle:fileModel.fileName
                                                                                                         deletable:YES], nil];
             [self.launcherView addPages:items refreshhRightNow:YES];
         }

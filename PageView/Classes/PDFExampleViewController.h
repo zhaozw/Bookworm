@@ -11,5 +11,5 @@
 @interface PDFExampleViewController : LeavesViewController {
 	CGPDFDocumentRef pdf;
 }
-
+- (id)init:(NSString*)fileName;
 @end

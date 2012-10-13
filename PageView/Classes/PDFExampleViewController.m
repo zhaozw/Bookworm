@@ -8,14 +8,23 @@
 
 #import "PDFExampleViewController.h"
 #import "Utilities.h"
+#import "CommonHelper.h"
+
 
 @implementation PDFExampleViewController
-
+- (id)init:(NSString*)fileName
+{
+    if (self = [super init]) {        
+        CFURLRef url = (CFURLRef)[NSURL fileURLWithPath:fileName];
+		pdf = CGPDFDocumentCreateWithURL((CFURLRef)url);
+    }
+    return self;
+}
 - (id)init {
     if (self = [super init]) {
-		CFURLRef pdfURL = CFBundleCopyResourceURL(CFBundleGetMainBundle(), CFSTR("paper.pdf"), NULL, NULL);
-		pdf = CGPDFDocumentCreateWithURL((CFURLRef)pdfURL);
-		CFRelease(pdfURL);
+		//CFURLRef pdfURL = CFBundleCopyResourceURL(CFBundleGetMainBundle(), CFSTR("paper.pdf"), NULL, NULL);
+		//pdf = CGPDFDocumentCreateWithURL((CFURLRef)pdfURL);
+		//CFRelease(pdfURL);
     }
     return self;
 }
@@ -53,9 +62,28 @@
 }
 
 #pragma mark UIViewController
+-(void)loadView
+{
+    [super loadView];
+    NSString* fileName = self.title;
+    if(!fileName || fileName.length == 0)
+    {
+        CFURLRef pdfURL = CFBundleCopyResourceURL(CFBundleGetMainBundle(), CFSTR("paper.pdf"), NULL, NULL);
+		pdf = CGPDFDocumentCreateWithURL((CFURLRef)pdfURL);
+		CFRelease(pdfURL);
+    }
+    else
+    {
+        NSString* filePath = [[CommonHelper getTargetFolderPath]stringByAppendingPathComponent:fileName];
+        CFURLRef url = (CFURLRef)[NSURL fileURLWithPath:filePath];
+        pdf = CGPDFDocumentCreateWithURL((CFURLRef)url);
+    }
+
+}
 
 - (void) viewDidLoad {
 	[super viewDidLoad];
+        
 	leavesView.backgroundRendering = YES;
 	[self displayPageNumber:1];
 }
