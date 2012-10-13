@@ -10,6 +10,11 @@
 		04975D4E16295EBA006C66EE /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 04975D4C16295EBA006C66EE /* down.png */; };
 		04975D4F16295EBA006C66EE /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 04975D4D16295EBA006C66EE /* up.png */; };
 		04975D5116295F32006C66EE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04975D5016295F32006C66EE /* CoreFoundation.framework */; };
+		04975D531629A104006C66EE /* readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 04975D521629A104006C66EE /* readme.rtf */; };
+		04975D561629A3A7006C66EE /* Tree1.0.0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04975D541629A3A7006C66EE /* Tree1.0.0.xcdatamodeld */; };
+		04975D5F1629A559006C66EE /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D5E1629A559006C66EE /* Tree.m */; };
+		04975D651629A729006C66EE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04975D641629A728006C66EE /* CoreData.framework */; };
+		04975D681629A793006C66EE /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D671629A793006C66EE /* GDataXMLNode.m */; };
 		04A82FF71623900F00FAE668 /* ExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FDC1623900F00FAE668 /* ExamplesViewController.m */; };
 		04A82FF81623900F00FAE668 /* ImageExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FDE1623900F00FAE668 /* ImageExampleViewController.m */; };
 		04A82FF91623900F00FAE668 /* LeavesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FE01623900F00FAE668 /* LeavesAppDelegate.m */; };
@@ -98,6 +103,13 @@
 		04975D4C16295EBA006C66EE /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
 		04975D4D16295EBA006C66EE /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
 		04975D5016295F32006C66EE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		04975D521629A104006C66EE /* readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = readme.rtf; sourceTree = "<group>"; };
+		04975D551629A3A7006C66EE /* Tree1.0.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tree1.0.0.xcdatamodel; sourceTree = "<group>"; };
+		04975D5D1629A559006C66EE /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		04975D5E1629A559006C66EE /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		04975D641629A728006C66EE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04975D661629A792006C66EE /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		04975D671629A793006C66EE /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		04A82FDB1623900F00FAE668 /* ExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesViewController.h; sourceTree = "<group>"; };
 		04A82FDC1623900F00FAE668 /* ExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesViewController.m; sourceTree = "<group>"; };
 		04A82FDD1623900F00FAE668 /* ImageExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageExampleViewController.h; sourceTree = "<group>"; };
@@ -237,6 +249,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04975D651629A729006C66EE /* CoreData.framework in Frameworks */,
 				04975D5116295F32006C66EE /* CoreFoundation.framework in Frameworks */,
 				04A830081623907400FAE668 /* QuartzCore.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
@@ -473,6 +486,10 @@
 		04B84D1D1621C4D900CF0A46 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04975D661629A792006C66EE /* GDataXMLNode.h */,
+				04975D671629A793006C66EE /* GDataXMLNode.m */,
+				04975D5D1629A559006C66EE /* Tree.h */,
+				04975D5E1629A559006C66EE /* Tree.m */,
 				04B84D1E1621C4F700CF0A46 /* FileModel.h */,
 				04B84D1F1621C4F700CF0A46 /* FileModel.m */,
 				04B84D201621C4F700CF0A46 /* PageModel.h */,
@@ -571,6 +588,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04975D541629A3A7006C66EE /* Tree1.0.0.xcdatamodeld */,
 				04975D4C16295EBA006C66EE /* down.png */,
 				04975D4D16295EBA006C66EE /* up.png */,
 				0F93B7E61213AE4500BA0DB9 /* close.png */,
@@ -579,6 +597,7 @@
 				0F2C053E12068241009D2ED9 /* Images@2x */,
 				0F1328E91206371D00C7C87C /* Images@1x */,
 				8D1107310486CEB800E47090 /* MyLauncher-Info.plist */,
+				04975D521629A104006C66EE /* readme.rtf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -586,6 +605,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04975D641629A728006C66EE /* CoreData.framework */,
 				04975D5016295F32006C66EE /* CoreFoundation.framework */,
 				04A830071623907400FAE668 /* QuartzCore.framework */,
 				04B84CBD1621C19500CF0A46 /* AVFoundation.framework */,
@@ -693,6 +713,7 @@
 				04A830051623900F00FAE668 /* MainWindow-iPad.xib in Resources */,
 				04975D4E16295EBA006C66EE /* down.png in Resources */,
 				04975D4F16295EBA006C66EE /* up.png in Resources */,
+				04975D531629A104006C66EE /* readme.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,6 +766,9 @@
 				04A82FFD1623900F00FAE668 /* LeavesView.m in Sources */,
 				04A82FFE1623900F00FAE668 /* LeavesViewController.m in Sources */,
 				04A82FFF1623900F00FAE668 /* Utilities.m in Sources */,
+				04975D561629A3A7006C66EE /* Tree1.0.0.xcdatamodeld in Sources */,
+				04975D5F1629A559006C66EE /* Tree.m in Sources */,
+				04975D681629A793006C66EE /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,11 +789,17 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MyLauncher_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "MyLauncher-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lxml2",
 				);
 				PRODUCT_NAME = Bookworm;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -788,11 +818,17 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MyLauncher_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "MyLauncher-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lxml2",
 				);
 				PRODUCT_NAME = Bookworm;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -849,6 +885,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04975D541629A3A7006C66EE /* Tree1.0.0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04975D551629A3A7006C66EE /* Tree1.0.0.xcdatamodel */,
+			);
+			currentVersion = 04975D551629A3A7006C66EE /* Tree1.0.0.xcdatamodel */;
+			path = Tree1.0.0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
 }
