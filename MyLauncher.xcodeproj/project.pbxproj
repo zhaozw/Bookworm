@@ -16,7 +16,9 @@
 		04975D681629A793006C66EE /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D671629A793006C66EE /* GDataXMLNode.m */; };
 		04975D6B162A2A20006C66EE /* BookStoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D6A162A2A20006C66EE /* BookStoreData.m */; };
 		04975D6E162A30D6006C66EE /* CoreDataMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D6D162A30D6006C66EE /* CoreDataMgr.m */; };
-		04975D75162A324B006C66EE /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D74162A324B006C66EE /* Tree.m */; };
+		04975D77162ABF39006C66EE /* AccountCategory.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04975D76162ABF39006C66EE /* AccountCategory.xml */; };
+		04975D7D162B738E006C66EE /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D7C162B738E006C66EE /* Tree.m */; };
+		04975D80162B73D5006C66EE /* LatestBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D7F162B73D5006C66EE /* LatestBooks.m */; };
 		04A82FF71623900F00FAE668 /* ExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FDC1623900F00FAE668 /* ExamplesViewController.m */; };
 		04A82FF81623900F00FAE668 /* ImageExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FDE1623900F00FAE668 /* ImageExampleViewController.m */; };
 		04A82FF91623900F00FAE668 /* LeavesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FE01623900F00FAE668 /* LeavesAppDelegate.m */; };
@@ -114,8 +116,11 @@
 		04975D6A162A2A20006C66EE /* BookStoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreData.m; sourceTree = "<group>"; };
 		04975D6D162A30D6006C66EE /* CoreDataMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataMgr.m; sourceTree = "<group>"; };
 		04975D72162A3192006C66EE /* CoreDataMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataMgr.h; sourceTree = "<group>"; };
-		04975D73162A324B006C66EE /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
-		04975D74162A324B006C66EE /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		04975D76162ABF39006C66EE /* AccountCategory.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AccountCategory.xml; sourceTree = "<group>"; };
+		04975D7B162B738E006C66EE /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		04975D7C162B738E006C66EE /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		04975D7E162B73D5006C66EE /* LatestBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatestBooks.h; sourceTree = "<group>"; };
+		04975D7F162B73D5006C66EE /* LatestBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatestBooks.m; sourceTree = "<group>"; };
 		04A82FDB1623900F00FAE668 /* ExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesViewController.h; sourceTree = "<group>"; };
 		04A82FDC1623900F00FAE668 /* ExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesViewController.m; sourceTree = "<group>"; };
 		04A82FDD1623900F00FAE668 /* ImageExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageExampleViewController.h; sourceTree = "<group>"; };
@@ -492,8 +497,8 @@
 		04B84D1D1621C4D900CF0A46 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				04975D73162A324B006C66EE /* Tree.h */,
-				04975D74162A324B006C66EE /* Tree.m */,
+				04975D7B162B738E006C66EE /* Tree.h */,
+				04975D7C162B738E006C66EE /* Tree.m */,
 				04975D72162A3192006C66EE /* CoreDataMgr.h */,
 				04975D6D162A30D6006C66EE /* CoreDataMgr.m */,
 				04975D661629A792006C66EE /* GDataXMLNode.h */,
@@ -504,6 +509,8 @@
 				04B84D211621C4F700CF0A46 /* PageModel.m */,
 				04975D69162A2A20006C66EE /* BookStoreData.h */,
 				04975D6A162A2A20006C66EE /* BookStoreData.m */,
+				04975D7E162B73D5006C66EE /* LatestBooks.h */,
+				04975D7F162B73D5006C66EE /* LatestBooks.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -598,6 +605,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04975D76162ABF39006C66EE /* AccountCategory.xml */,
 				04975D541629A3A7006C66EE /* Tree1.0.0.xcdatamodeld */,
 				04975D4C16295EBA006C66EE /* down.png */,
 				04975D4D16295EBA006C66EE /* up.png */,
@@ -724,6 +732,7 @@
 				04975D4E16295EBA006C66EE /* down.png in Resources */,
 				04975D4F16295EBA006C66EE /* up.png in Resources */,
 				04975D531629A104006C66EE /* readme.rtf in Resources */,
+				04975D77162ABF39006C66EE /* AccountCategory.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,7 +789,8 @@
 				04975D681629A793006C66EE /* GDataXMLNode.m in Sources */,
 				04975D6B162A2A20006C66EE /* BookStoreData.m in Sources */,
 				04975D6E162A30D6006C66EE /* CoreDataMgr.m in Sources */,
-				04975D75162A324B006C66EE /* Tree.m in Sources */,
+				04975D7D162B738E006C66EE /* Tree.m in Sources */,
+				04975D80162B73D5006C66EE /* LatestBooks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

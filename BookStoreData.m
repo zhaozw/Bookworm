@@ -40,18 +40,24 @@ static BookStoreData * sSharedInstance;
     }
     return sSharedInstance;
 }
-//init
--(id)init
+
+-(id)init:(NSString*)filePath
 {
     if (self = [super init]) {
         _managedObjectContext = [((AppDelegate*)[[UIApplication sharedApplication]delegate]) managedObjectContext];
         
         //init data from core data
-        [self initWithCoreData];
+        if(filePath)
+        {
+            //TODO::reset local data            
+        }
+        else
+        {
+            [self initWithCoreData];
+        }
     }
     return self;
 }
-
 -(void)parseLocalCategoryXML
 {
     //#define kLocalStringCategory
@@ -158,6 +164,19 @@ static BookStoreData * sSharedInstance;
     
 }
 -(NSString*)categoryName:(NSInteger)index
+{
+    return @"";
+}
+
+-(NSUInteger)countOfSubcategory
+{
+    return 0;
+}
+-(void)setCurrentSubcategory:(NSInteger)index
+{
+    
+}
+-(NSString*)subcategoryName:(NSInteger)index
 {
     return @"";
 }

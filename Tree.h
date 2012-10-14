@@ -2,7 +2,7 @@
 //  Tree.h
 //  MyLauncher
 //
-//  Created by ramonqlee on 10/14/12.
+//  Created by ramonqlee on 10/15/12.
 //
 //
 
@@ -20,5 +20,6 @@
 @property (nonatomic, retain) NSString * filename;
 @property (nonatomic, retain) NSString * filesize;
 @property (nonatomic, retain) NSString * category;
-
+@property (nonatomic, retain) NSString * subcategory;
+@property (nonatomic, retain) NSDate * time;//latest update time
 @end

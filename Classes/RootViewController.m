@@ -25,6 +25,8 @@
 #import "BaiduMusicViewController.h"
 #import "DownloadViewController.h"
 #import "PDFExampleViewController.h"
+#import "LatestBooks.h"
+#import "Tree.h"
 
 @implementation RootViewController
 
@@ -33,32 +35,41 @@
 	[super loadView];
     self.title = @"Bookworm";
     
-           
+    //Add your view controllers here to be picked up by the launcher; remember to import them above       
     [[self appControllers] setObject:[ExamplesViewController class] forKey:@"ExamplesViewController"];
     [[self appControllers] setObject:[PDFExampleViewController class] forKey:@"PDFExampleViewController"];
    
-    //Add your view controllers here to be picked up by the launcher; remember to import them above
-	//[[self appControllers] setObject:[MyCustomViewController class] forKey:@"MyCustomViewController"];
-	//[[self appControllers] setObject:[MyOtherCustomViewController class] forKey:@"MyOtherCustomViewController"];
-
-	
+    LatestBooks* latestBooks = [LatestBooks shareInstance];
     //API doc
     //title for book's title
     //iPhoneImage/iPadImage for image of this book
     //targetTitle:for book's name,find the book in the library(file name)
     //deletable:this item is deletable or not
-	if(![self hasSavedLauncherItems])
+	if([latestBooks countOfBooks]>0)
 	{
-		[self.launcherView setPages:[[NSMutableArray alloc ]initWithObjects:
-                                     [[NSMutableArray alloc ]initWithObjects:
-                                      [[MyLauncherItem alloc] initWithTitle:@"Item 1"
-                                                                 iPhoneImage:@"itemImage" 
-                                                                   iPadImage:@"itemImage-iPad"
-                                                                      target:@"ExamplesViewController"
-                                                                 targetTitle:@"Item 1 View"
-                                                                   deletable:YES],
-                                      nil],
-                                      nil]];
+        NSMutableArray* books = [[NSMutableArray alloc]init];
+        for (NSInteger i = 0; i < [latestBooks countOfBooks]; ++i) {            
+            Tree* item = [latestBooks bookInfo:i];
+            [books addObject:[[MyLauncherItem alloc] initWithTitle:item.name
+                 iPhoneImage:item.image
+                   iPadImage:item.image
+                      target:@"ExamplesViewController"
+                 targetTitle:item.filename
+                   deletable:YES]];
+        }
+        [books release];
+        [self.launcherView setPages:books singleArray:YES];
+//		[self.launcherView setPages:[[NSMutableArray alloc ]initWithObjects:
+//                                     [[NSMutableArray alloc ]initWithObjects:
+//                                      [[MyLauncherItem alloc] initWithTitle:@"Item 1"
+//                                                                 iPhoneImage:@"itemImage" 
+//                                                                   iPadImage:@"itemImage-iPad"
+//                                                                      target:@"ExamplesViewController"
+//                                                                 targetTitle:@"Item 1 View"
+//                                                                   deletable:YES],
+//                                      nil],
+//                                      nil]];
+        
         
         // Set number of immovable items below; only set it when you are setting the pages as the 
         // user may still be able to delete these items and setting this then will cause movable 
