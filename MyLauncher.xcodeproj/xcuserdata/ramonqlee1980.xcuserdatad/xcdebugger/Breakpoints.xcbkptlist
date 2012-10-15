@@ -7,13 +7,13 @@
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "Classes/RootViewController.m"
-         timestampString = "371949070.613881"
+         filePath = "Classes/MyLauncher/MyLauncherView.m"
+         timestampString = "372035640.537677"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "52"
-         endingLineNumber = "52"
-         landmarkName = "-loadView"
+         startingLineNumber = "162"
+         endingLineNumber = "162"
+         landmarkName = "-setPages:singleArray:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

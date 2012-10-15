@@ -167,7 +167,7 @@ static const CGFloat iPadLandscapeYPadding = 30;
             {
                 [p addObject:[pages objectAtIndex:i*maxItemsPerPage+j]];
             }
-            [reorgPages replaceObjectAtIndex:i withObject:p];
+            [reorgPages addObject:p];
         }
     }
     [self setPages:reorgPages animated:YES];

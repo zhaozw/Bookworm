@@ -11,7 +11,18 @@
 
 
 @interface Tree : NSManagedObject
-
+{
+    NSString* _name;
+    NSString * _author;
+    NSString * _image;
+    NSString * _summary;
+    NSString * _url;
+    NSString * _filename;
+    NSString * _filesize;
+    NSString * _category;
+    NSString * _subcategory;
+    NSDate * _time;//latest update time
+}
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * author;
 @property (nonatomic, retain) NSString * image;

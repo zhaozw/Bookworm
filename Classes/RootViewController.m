@@ -56,9 +56,9 @@
                       target:@"ExamplesViewController"
                  targetTitle:item.filename
                    deletable:YES]];
-        }
-        [books release];
+        }        
         [self.launcherView setPages:books singleArray:YES];
+        [books release];
 //		[self.launcherView setPages:[[NSMutableArray alloc ]initWithObjects:
 //                                     [[NSMutableArray alloc ]initWithObjects:
 //                                      [[MyLauncherItem alloc] initWithTitle:@"Item 1"
