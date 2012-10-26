@@ -126,6 +126,11 @@
     Class viewCtrClass = [[self appControllers] objectForKey:[item controllerStr]];
 	UIViewController *controller = [[viewCtrClass alloc] init];
 	
+#if 1
+    //	bookVC.bookIndex = i;
+	[self.navigationController pushViewController:controller animated:YES];
+	[controller release];
+#else
 	[self setLauncherNavigationController:[[UINavigationController alloc] initWithRootViewController:controller]];
 	[[self.launcherNavigationController topViewController] setTitle:item.controllerTitle];
     [self.launcherNavigationController setDelegate:self];
@@ -169,6 +174,7 @@
 						 self.overlayView.alpha = 0.7;
 					 }
 					 completion:nil];
+#endif
 }
 
 -(void)launcherViewDidBeginEditing:(id)sender {

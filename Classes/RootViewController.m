@@ -27,6 +27,7 @@
 #import "PDFExampleViewController.h"
 #import "LatestBooks.h"
 #import "Tree.h"
+#import "KDBooKViewController.h"
 
 @implementation RootViewController
 
@@ -38,7 +39,9 @@
     //Add your view controllers here to be picked up by the launcher; remember to import them above       
     [[self appControllers] setObject:[ExamplesViewController class] forKey:@"ExamplesViewController"];
     [[self appControllers] setObject:[PDFExampleViewController class] forKey:@"PDFExampleViewController"];
-   
+    [[self appControllers] setObject:[KDBooKViewController class] forKey:@"KDBooKViewController"];
+    
+    [[RJBookData sharedRJBookData] loadXml:@"book.xml"];
     LatestBooks* latestBooks = [LatestBooks shareInstance];
     //API doc
     //title for book's title
@@ -53,7 +56,7 @@
             [books addObject:[[MyLauncherItem alloc] initWithTitle:item.name
                  iPhoneImage:item.image
                    iPadImage:item.image
-                      target:@"ExamplesViewController"
+                      target:@"KDBooKViewController"
                  targetTitle:item.filename
                    deletable:YES]];
         }        
