@@ -22,7 +22,9 @@
     NSString * _category;
     NSString * _subcategory;
     NSDate * _time;//latest update time
+    NSString * _index;
 }
+@property (nonatomic, retain) NSString * index;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * author;
 @property (nonatomic, retain) NSString * image;

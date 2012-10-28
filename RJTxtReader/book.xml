@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf8" ?>
 <books>
     <book>
+        <name>测试书籍</name>
+        <icon>Z1-1.jpg</icon>
+        <pages>
+            <page>test.txt</page>
+        </pages>
+    </book>
+    
+    <book>
         <name>藏地密码1</name>
         <icon>Z1-1.jpg</icon>
         <pages>

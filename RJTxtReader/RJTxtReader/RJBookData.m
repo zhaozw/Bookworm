@@ -7,6 +7,7 @@
 //
 
 #import "RJBookData.h"
+#import "CommonHelper.h"
 
 @implementation RJSingleBook
 
@@ -54,7 +55,9 @@ static RJBookData *shareBookData = nil;
 
 -(BOOL) loadXml:(NSString*) xmlFile
 {
+    //TODO::将此部分的xml索引数据导入到coredata数据中
     NSString *XMLPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:xmlFile];
+        
     NSData *XMLData = [NSData dataWithContentsOfFile:XMLPath];
     CXMLDocument *document = [[CXMLDocument alloc] initWithData:XMLData
                                                         options:0
@@ -101,12 +104,12 @@ static RJBookData *shareBookData = nil;
                             if (fileAttributes) {
                                 fileSize = [[fileAttributes objectForKey:NSFileSize] unsignedIntegerValue];
                             }
-                            NSLog(@"%d",[NSString stringWithFormat:@"%d",fileSize]);
+                            NSLog(@"%@",[NSString stringWithFormat:@"%d",fileSize]);
                             [singleBook.pageSize addObject: [NSString stringWithFormat:@"%d",fileSize]];
                         }
                     }
-                    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-                    NSString *documentsDirectory = [paths objectAtIndex:0];//去处需要的路径
+//                    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+                    NSString *documentsDirectory = [CommonHelper getTargetFolderPath];//[paths objectAtIndex:0];//去处需要的路径
                     NSString *path = [documentsDirectory stringByAppendingPathComponent:singleBook.name];
                     singleBook.bookFile = [path stringByAppendingPathExtension:@".txt"];
                     [fileManager createFileAtPath:singleBook.bookFile contents:nil attributes:nil];

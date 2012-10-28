@@ -22,4 +22,5 @@
 @property(nonatomic,retain)NSString *fileURL;
 @property(nonatomic)BOOL isDownloading;//是否正在下载
 @property(nonatomic)BOOL isP2P;//是否是p2p下载
+@property(nonatomic,retain)NSString *bookName;
 @end

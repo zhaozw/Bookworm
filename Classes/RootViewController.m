@@ -94,11 +94,29 @@
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(FileDownloadSuccess:) name:kFileDownloadSuccess object:nil];
 }
+-(void)package2MasterFile:(FileModel*)fileModel
+{
+    NSString *documentsDirectory = [CommonHelper getTargetFolderPath];
+    NSString *path = [documentsDirectory stringByAppendingPathComponent:fileModel.bookName];
+    NSString* bookFile = [path stringByAppendingPathExtension:@".txt"];
+    NSFileManager* fileManager =[NSFileManager defaultManager];
+    [fileManager createFileAtPath:bookFile contents:nil attributes:nil];
+    NSMutableData *writer = [[NSMutableData alloc]init];
+
+    NSString *fileName = [documentsDirectory stringByAppendingPathComponent:fileModel.fileName];
+    NSData *reader = [NSData dataWithContentsOfFile:fileName];
+    [writer appendData:reader];
+    [writer writeToFile:bookFile atomically:YES];
+    [writer release];
+    NSError* err;
+    [fileManager removeItemAtPath:fileName error:&err];
+}
 -(void)FileDownloadSuccess:(NSNotification *)notification
 {
     if (notification) {
-      FileModel* fileModel =  (FileModel*)notification.object;
+      FileModel* fileModel =  (FileModel*)notification.object;        
         if (fileModel) {
+            [self package2MasterFile:fileModel];
             NSMutableArray * items = [[NSMutableArray alloc]initWithObjects:[[MyLauncherItem alloc] initWithTitle:@"Item x"
                                                                                                       iPhoneImage:@"itemImage"
                                                                                                         iPadImage:@"itemImage-iPad"
@@ -173,5 +191,17 @@
     [super viewDidUnload];
     [[NSNotificationCenter defaultCenter]removeObserver:self];
 }
+-(void)launcherViewItemSelected:(MyLauncherItem*)item {
+    if (![self appControllers] || [self launcherNavigationController]) {
+        return;
+    }
+    Class viewCtrClass = [[self appControllers] objectForKey:[item controllerStr]];
+	UIViewController *controller = [[viewCtrClass alloc] init];
+	
+    //TODO::get item index
+    //	bookVC.bookIndex = i;
+	[self.navigationController pushViewController:controller animated:YES];
+	[controller release];
 
+}
 @end

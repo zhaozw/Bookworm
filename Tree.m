@@ -21,6 +21,7 @@
 @dynamic category;
 @dynamic time;
 @dynamic subcategory;
+@dynamic index;
 
 #define get(name) -(NSString*) name\
 {\
@@ -37,6 +38,8 @@ get(filename);
 get(filesize);
 get(category);
 get(subcategory);
+get(index);
+
 -(NSDate*)time
 {
     return _time;
@@ -79,7 +82,10 @@ get(subcategory);
 {
     _name = name;
 }
-
+-(void)setIndex:(NSString *)index
+{
+    _index = index;
+}
 
 
 //

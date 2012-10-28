@@ -9,7 +9,7 @@
 	PageView  *bookLabel;	
     
 	KDBook   *mBook;
-	NSUInteger bookIndex;
+	NSUInteger bookIndex;//index for book
 	UISlider *bookSlider;
 	UIView   *headView;
 	

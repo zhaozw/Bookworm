@@ -19,4 +19,5 @@
 @synthesize fileURL;
 @synthesize isDownloading;
 @synthesize isP2P;
+@synthesize bookName;
 @end
