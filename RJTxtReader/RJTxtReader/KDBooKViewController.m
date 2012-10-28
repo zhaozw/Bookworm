@@ -42,6 +42,7 @@
 	NSUInteger page = bookSlider.value;
 	pageIndex = page;
 	bookLabel.text = [mBook stringWithPage:pageIndex];
+    [self savePlace:pageIndex];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -217,9 +218,9 @@
     UIBarButtonItem *two = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"color.png"] style:UIBarButtonItemStylePlain target:self action:@selector(doFont)];    
     UIBarButtonItem *three = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"light.png"] style:UIBarButtonItemStylePlain target:self action:@selector(doColor)];
     UIBarButtonItem *four = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"play-next.png"] style:UIBarButtonItemStylePlain target:self action:@selector(doNext)];
-    UIBarButtonItem *five = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"index.png"] style:UIBarButtonItemStylePlain target:self action:@selector(doIndex)];
+    //UIBarButtonItem *five = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"index.png"] style:UIBarButtonItemStylePlain target:self action:@selector(doIndex)];
     UIBarButtonItem *flexItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
-    [self setToolbarItems: [NSArray arrayWithObjects: one,flexItem, two,flexItem, three,flexItem, four,flexItem, five, nil]];
+    [self setToolbarItems: [NSArray arrayWithObjects: one,flexItem, two,flexItem, three,flexItem, four,flexItem, /*five, */nil]];
     [self.navigationController.toolbar sizeToFit];
 
 
@@ -251,6 +252,7 @@
 	[slider addTarget:self action:@selector(sliderEvent) forControlEvents:UIControlEventValueChanged];
 	bookSlider = [slider retain];
 	[self.view addSubview:slider];
+    slider.hidden = YES;
 	[slider release];
     
     [self performSelector:@selector(showPage) withObject:self afterDelay:0.25];
@@ -409,6 +411,7 @@
 }
 
 - (void)bookDidRead:(NSUInteger)size{
+    bookSlider.hidden = NO;
 	bookSlider.maximumValue = size;
 	bookSlider.value = pageIndex;
 }

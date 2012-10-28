@@ -108,6 +108,7 @@
     [writer appendData:reader];
     [writer writeToFile:bookFile atomically:YES];
     [writer release];
+    
     NSError* err;
     [fileManager removeItemAtPath:fileName error:&err];
 }

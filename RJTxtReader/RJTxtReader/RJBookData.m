@@ -57,7 +57,7 @@ static RJBookData *shareBookData = nil;
 {
     //TODO::将此部分的xml索引数据导入到coredata数据中
     NSString *XMLPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:xmlFile];
-        
+    
     NSData *XMLData = [NSData dataWithContentsOfFile:XMLPath];
     CXMLDocument *document = [[CXMLDocument alloc] initWithData:XMLData
                                                         options:0
@@ -108,21 +108,24 @@ static RJBookData *shareBookData = nil;
                             [singleBook.pageSize addObject: [NSString stringWithFormat:@"%d",fileSize]];
                         }
                     }
-//                    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+                    //                    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
                     NSString *documentsDirectory = [CommonHelper getTargetFolderPath];//[paths objectAtIndex:0];//去处需要的路径
                     NSString *path = [documentsDirectory stringByAppendingPathComponent:singleBook.name];
                     singleBook.bookFile = [path stringByAppendingPathExtension:@".txt"];
-                    [fileManager createFileAtPath:singleBook.bookFile contents:nil attributes:nil];
-                    NSMutableData *writer = [[NSMutableData alloc]init];
-                    for(NSInteger i=0;i<[singleBook.pages count];i++)
+                    if (![fileManager fileExistsAtPath:singleBook.bookFile])
                     {
-                        NSString* file = [singleBook.pages objectAtIndex:i];
-                        NSString *path = [[NSBundle mainBundle]pathForResource:file  ofType:nil] ;
-                        NSData *reader = [NSData dataWithContentsOfFile:path];
-                        [writer appendData:reader];
+                        [fileManager createFileAtPath:singleBook.bookFile contents:nil attributes:nil];
+                        NSMutableData *writer = [[NSMutableData alloc]init];
+                        for(NSInteger i=0;i<[singleBook.pages count];i++)
+                        {
+                            NSString* file = [singleBook.pages objectAtIndex:i];
+                            NSString *path = [[NSBundle mainBundle]pathForResource:file  ofType:nil] ;
+                            NSData *reader = [NSData dataWithContentsOfFile:path];
+                            [writer appendData:reader];
+                        }
+                        [writer writeToFile:singleBook.bookFile atomically:YES];
+                        [writer release];
                     }
-                    [writer writeToFile:singleBook.bookFile atomically:YES];
-                    [writer release];
                 }
             }
             [books addObject:singleBook];
