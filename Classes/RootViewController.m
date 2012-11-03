@@ -28,6 +28,7 @@
 #import "LatestBooks.h"
 #import "Tree.h"
 #import "KDBooKViewController.h"
+#import "CommonHelper.h"
 
 @implementation RootViewController
 
@@ -97,13 +98,18 @@
 -(void)package2MasterFile:(FileModel*)fileModel
 {
     NSString *documentsDirectory = [CommonHelper getTargetFolderPath];
+    NSString *fileName = [documentsDirectory stringByAppendingPathComponent:fileModel.fileName];
+   
     NSString *path = [documentsDirectory stringByAppendingPathComponent:fileModel.bookName];
-    NSString* bookFile = [path stringByAppendingPathExtension:@".txt"];
+    NSString* bookFile = path;//[path stringByAppendingPathExtension:@".txt"];
     NSFileManager* fileManager =[NSFileManager defaultManager];
     [fileManager createFileAtPath:bookFile contents:nil attributes:nil];
     NSMutableData *writer = [[NSMutableData alloc]init];
 
-    NSString *fileName = [documentsDirectory stringByAppendingPathComponent:fileModel.fileName];
+    //TODO::unzip(zip,rar)
+    [CommonHelper unzipFile:fileName toFile:bookFile];
+    
+    
     NSData *reader = [NSData dataWithContentsOfFile:fileName];
     [writer appendData:reader];
     [writer writeToFile:bookFile atomically:YES];

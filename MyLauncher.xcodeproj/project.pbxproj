@@ -43,101 +43,6 @@
 		0495C1FF163B4AC200083A9E /* 000006 　　藏地密码1 第六章 笔记之谜 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C104163B4AC100083A9E /* 000006 　　藏地密码1 第六章 笔记之谜 .txt */; };
 		0495C200163B4AC200083A9E /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C105163B4AC100083A9E /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt */; };
 		0495C201163B4AC200083A9E /* Z1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C106163B4AC100083A9E /* Z1.jpg */; };
-		0495C202163B4AC200083A9E /* 000001 　　第七十章万狼之王紫麒麟 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C108163B4AC100083A9E /* 000001 　　第七十章万狼之王紫麒麟 .txt */; };
-		0495C203163B4AC200083A9E /* 000002 　　第七十一章狼之禁地 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C109163B4AC100083A9E /* 000002 　　第七十一章狼之禁地 .txt */; };
-		0495C204163B4AC200083A9E /* 000003 　　第七十二章众生之门 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C10A163B4AC100083A9E /* 000003 　　第七十二章众生之门 .txt */; };
-		0495C205163B4AC200083A9E /* 000004 　　第七十三章浮生之河 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C10B163B4AC100083A9E /* 000004 　　第七十三章浮生之河 .txt */; };
-		0495C206163B4AC200083A9E /* 000005 　　第七十四章欢迎来到帕巴拉！ .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C10C163B4AC100083A9E /* 000005 　　第七十四章欢迎来到帕巴拉！ .txt */; };
-		0495C207163B4AC200083A9E /* 000006 　　第七十五章西藏众神 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C10D163B4AC100083A9E /* 000006 　　第七十五章西藏众神 .txt */; };
-		0495C208163B4AC200083A9E /* 000007 　　第七十六章西藏万佛阁 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C10E163B4AC100083A9E /* 000007 　　第七十六章西藏万佛阁 .txt */; };
-		0495C209163B4AC200083A9E /* 000008 　　第七十七章抵达神庙核心 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C10F163B4AC100083A9E /* 000008 　　第七十七章抵达神庙核心 .txt */; };
-		0495C20A163B4AC200083A9E /* 000009 　　第八十章千年前的故事 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C110163B4AC100083A9E /* 000009 　　第八十章千年前的故事 .txt */; };
-		0495C20B163B4AC200083A9E /* 000010 　　第八十一章以一张照片结束 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C111163B4AC100083A9E /* 000010 　　第八十一章以一张照片结束 .txt */; };
-		0495C20C163B4AC200083A9E /* Z10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C112163B4AC100083A9E /* Z10.jpg */; };
-		0495C20D163B4AC200083A9E /* 000001 　　第八章 出发！亚马逊丛林！ .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C114163B4AC100083A9E /* 000001 　　第八章 出发！亚马逊丛林！ .txt */; };
-		0495C20E163B4AC200083A9E /* 000002 　　藏地密码2 第九章 丛林危机 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C115163B4AC200083A9E /* 000002 　　藏地密码2 第九章 丛林危机 .txt */; };
-		0495C20F163B4AC200083A9E /* 000003 　　藏地密码2 第十章 深陷原始部落库库尔族 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C116163B4AC200083A9E /* 000003 　　藏地密码2 第十章 深陷原始部落库库尔族 .txt */; };
-		0495C210163B4AC200083A9E /* 000004 　　藏地密码2 第十一章 叹息丛林：探险家的坟墓 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C117163B4AC200083A9E /* 000004 　　藏地密码2 第十一章 叹息丛林：探险家的坟墓 .txt */; };
-		0495C211163B4AC200083A9E /* 000005 　　藏地密码2 第十二章 洪荒：上帝之手 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C118163B4AC200083A9E /* 000005 　　藏地密码2 第十二章 洪荒：上帝之手 .txt */; };
-		0495C212163B4AC200083A9E /* 000006 　　藏地密码2 第十三章 我们被食人族绑架了！ .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C119163B4AC200083A9E /* 000006 　　藏地密码2 第十三章 我们被食人族绑架了！ .txt */; };
-		0495C213163B4AC200083A9E /* 000007 　　藏地密码2 第十四章 玛雅圣城 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C11A163B4AC200083A9E /* 000007 　　藏地密码2 第十四章 玛雅圣城 .txt */; };
-		0495C214163B4AC200083A9E /* Z2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C11B163B4AC200083A9E /* Z2.jpg */; };
-		0495C215163B4AC200083A9E /* 000001 　　第十五章 玛雅迷宫 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C11D163B4AC200083A9E /* 000001 　　第十五章 玛雅迷宫 .txt */; };
-		0495C216163B4AC200083A9E /* 000002 　　藏地密码3 第十六章 水火地狱 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C11E163B4AC200083A9E /* 000002 　　藏地密码3 第十六章 水火地狱 .txt */; };
-		0495C217163B4AC200083A9E /* 000003 　　藏地密码3 第十七章 血池 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C11F163B4AC200083A9E /* 000003 　　藏地密码3 第十七章 血池 .txt */; };
-		0495C218163B4AC200083A9E /* 000004 　　藏地密码3 第十八章 回到西藏 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C120163B4AC200083A9E /* 000004 　　藏地密码3 第十八章 回到西藏 .txt */; };
-		0495C219163B4AC200083A9E /* 000005 　　藏地密码3 第十九章 玛雅：华夏文明的美洲变种 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C121163B4AC200083A9E /* 000005 　　藏地密码3 第十九章 玛雅：华夏文明的美洲变种 .txt */; };
-		0495C21A163B4AC200083A9E /* 000006 　　藏地密码3 第二十章 西藏墨脱：最后的秘境 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C122163B4AC200083A9E /* 000006 　　藏地密码3 第二十章 西藏墨脱：最后的秘境 .txt */; };
-		0495C21B163B4AC200083A9E /* 000007 　　藏地密码3 第二十一章 生命之门 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C123163B4AC200083A9E /* 000007 　　藏地密码3 第二十一章 生命之门 .txt */; };
-		0495C21C163B4AC200083A9E /* 000008 　　藏地密码3 第二十二章 地狱之门 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C124163B4AC200083A9E /* 000008 　　藏地密码3 第二十二章 地狱之门 .txt */; };
-		0495C21D163B4AC200083A9E /* Z3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C125163B4AC200083A9E /* Z3.jpg */; };
-		0495C21E163B4AC200083A9E /* 000001 　　第二十三章 高原雪狼 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C127163B4AC200083A9E /* 000001 　　第二十三章 高原雪狼 .txt */; };
-		0495C21F163B4AC200083A9E /* 000002 　　藏地密码4 第二十四章 倒悬空寺 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C128163B4AC200083A9E /* 000002 　　藏地密码4 第二十四章 倒悬空寺 .txt */; };
-		0495C220163B4AC200083A9E /* 000003 　　藏地密码4 第二十五章 巨门之后 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C129163B4AC200083A9E /* 000003 　　藏地密码4 第二十五章 巨门之后 .txt */; };
-		0495C221163B4AC200083A9E /* 000004 　　藏地密码4 第二十六章 巨佛内部 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C12A163B4AC200083A9E /* 000004 　　藏地密码4 第二十六章 巨佛内部 .txt */; };
-		0495C222163B4AC200083A9E /* 000005 　　藏地密码4 第二十七章 终极血池 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C12B163B4AC200083A9E /* 000005 　　藏地密码4 第二十七章 终极血池 .txt */; };
-		0495C223163B4AC200083A9E /* 000006 　　藏地密码4 第二十八章 西藏古格 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C12C163B4AC200083A9E /* 000006 　　藏地密码4 第二十八章 西藏古格 .txt */; };
-		0495C224163B4AC200083A9E /* 000007 　　藏地密码4 第二十九章 千年一战 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C12D163B4AC200083A9E /* 000007 　　藏地密码4 第二十九章 千年一战 .txt */; };
-		0495C225163B4AC200083A9E /* 000008 　　藏地密码4 第三十章 西藏密教 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C12E163B4AC200083A9E /* 000008 　　藏地密码4 第三十章 西藏密教 .txt */; };
-		0495C226163B4AC200083A9E /* Z4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C12F163B4AC200083A9E /* Z4.jpg */; };
-		0495C227163B4AC200083A9E /* 000001 　　第三十一章 雪山仆从 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C131163B4AC200083A9E /* 000001 　　第三十一章 雪山仆从 .txt */; };
-		0495C228163B4AC200083A9E /* 000002 　　藏地密码5 第三十二章 紫麒麟猜想 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C132163B4AC200083A9E /* 000002 　　藏地密码5 第三十二章 紫麒麟猜想 .txt */; };
-		0495C229163B4AC200083A9E /* 000003 　　藏地密码5 第三十三章 绝没见过的狼 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C133163B4AC200083A9E /* 000003 　　藏地密码5 第三十三章 绝没见过的狼 .txt */; };
-		0495C22A163B4AC200083A9E /* 000004 　　藏地密码5 第三十四章 水晶宫 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C134163B4AC200083A9E /* 000004 　　藏地密码5 第三十四章 水晶宫 .txt */; };
-		0495C22B163B4AC200083A9E /* 000005 　　藏地密码5 第三十五章 极南庙 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C135163B4AC200083A9E /* 000005 　　藏地密码5 第三十五章 极南庙 .txt */; };
-		0495C22C163B4AC200083A9E /* 000006 　　藏地密码5 第三十六章 死亡西风带 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C136163B4AC200083A9E /* 000006 　　藏地密码5 第三十六章 死亡西风带 .txt */; };
-		0495C22D163B4AC200083A9E /* 000007 　　藏地密码5 第三十七章 唐涛的日记 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C137163B4AC200083A9E /* 000007 　　藏地密码5 第三十七章 唐涛的日记 .txt */; };
-		0495C22E163B4AC200083A9E /* 000008 　　藏地密码5 第三十八章 人生的宿命 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C138163B4AC200083A9E /* 000008 　　藏地密码5 第三十八章 人生的宿命 .txt */; };
-		0495C22F163B4AC200083A9E /* Z5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C139163B4AC200083A9E /* Z5.jpg */; };
-		0495C230163B4AC200083A9E /* 000001 　　第三十九章 希特勒秘闻 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C13B163B4AC200083A9E /* 000001 　　第三十九章 希特勒秘闻 .txt */; };
-		0495C231163B4AC200083A9E /* 000002 　　第四十章 德军进藏秘密史料 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C13C163B4AC200083A9E /* 000002 　　第四十章 德军进藏秘密史料 .txt */; };
-		0495C232163B4AC200083A9E /* 000003 　　第四十一章 德军进藏秘密地图 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C13D163B4AC200083A9E /* 000003 　　第四十一章 德军进藏秘密地图 .txt */; };
-		0495C233163B4AC200083A9E /* 000004 　　第四十二章 希特勒第一次派人进藏之谜 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C13E163B4AC200083A9E /* 000004 　　第四十二章 希特勒第一次派人进藏之谜 .txt */; };
-		0495C234163B4AC200083A9E /* 000005 　　第四十三章 希特勒第二次派人进藏之谜 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C13F163B4AC200083A9E /* 000005 　　第四十三章 希特勒第二次派人进藏之谜 .txt */; };
-		0495C235163B4AC200083A9E /* 000006 　　第四十四章 香巴拉真身之谜 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C140163B4AC200083A9E /* 000006 　　第四十四章 香巴拉真身之谜 .txt */; };
-		0495C236163B4AC200083A9E /* 000007 　　第四十五章 冥河：西藏最神秘的河 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C141163B4AC200083A9E /* 000007 　　第四十五章 冥河：西藏最神秘的河 .txt */; };
-		0495C237163B4AC200083A9E /* Z6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C142163B4AC200083A9E /* Z6.jpg */; };
-		0495C238163B4AC200083A9E /* 000001 　　第四十六章 大天轮经：藏密最高法典 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C144163B4AC200083A9E /* 000001 　　第四十六章 大天轮经：藏密最高法典 .txt */; };
-		0495C239163B4AC200083A9E /* 000002 　　第一章 穿行地下河 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C145163B4AC200083A9E /* 000002 　　第一章 穿行地下河 .txt */; };
-		0495C23A163B4AC200083A9E /* 000003 　　第二章 涨水 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C146163B4AC200083A9E /* 000003 　　第二章 涨水 .txt */; };
-		0495C23B163B4AC200083A9E /* 000004 　　第三章 第一个二十四小时 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C147163B4AC200083A9E /* 000004 　　第三章 第一个二十四小时 .txt */; };
-		0495C23C163B4AC200083A9E /* 000005 　　第四章 死神到访 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C148163B4AC200083A9E /* 000005 　　第四章 死神到访 .txt */; };
-		0495C23D163B4AC200083A9E /* 000006 　　第一章 激励与地底瀑步 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C149163B4AC200083A9E /* 000006 　　第一章 激励与地底瀑步 .txt */; };
-		0495C23E163B4AC200083A9E /* 000007 　　第二章 变故突生 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C14A163B4AC200083A9E /* 000007 　　第二章 变故突生 .txt */; };
-		0495C23F163B4AC200083A9E /* 000008 　　第三章 大昭寺前的男子 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C14B163B4AC200083A9E /* 000008 　　第三章 大昭寺前的男子 .txt */; };
-		0495C240163B4AC200083A9E /* 000009 　　第四章 浪口余生 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C14C163B4AC200083A9E /* 000009 　　第四章 浪口余生 .txt */; };
-		0495C241163B4AC200083A9E /* 000010 　　第一章 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C14D163B4AC200083A9E /* 000010 　　第一章 .txt */; };
-		0495C242163B4AC200083A9E /* 000011 　　第二章 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C14E163B4AC200083A9E /* 000011 　　第二章 .txt */; };
-		0495C243163B4AC200083A9E /* 000012 　　第三章 第五次涌水 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C14F163B4AC200083A9E /* 000012 　　第三章 第五次涌水 .txt */; };
-		0495C244163B4AC200083A9E /* 000013 　　第四章 没有光的世界 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C150163B4AC200083A9E /* 000013 　　第四章 没有光的世界 .txt */; };
-		0495C245163B4AC200083A9E /* 000014 　　第一章 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C151163B4AC200083A9E /* 000014 　　第一章 .txt */; };
-		0495C246163B4AC200083A9E /* 000015 　　第二章 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C152163B4AC200083A9E /* 000015 　　第二章 .txt */; };
-		0495C247163B4AC200083A9E /* 000016 　　第三章 应战潮汐 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C153163B4AC200083A9E /* 000016 　　第三章 应战潮汐 .txt */; };
-		0495C248163B4AC200083A9E /* 000017 　　第四章 巨浪的考验 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C154163B4AC200083A9E /* 000017 　　第四章 巨浪的考验 .txt */; };
-		0495C249163B4AC200083A9E /* 000018 　　第五章 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C155163B4AC200083A9E /* 000018 　　第五章 .txt */; };
-		0495C24A163B4AC200083A9E /* 000019 　　第一章 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C156163B4AC200083A9E /* 000019 　　第一章 .txt */; };
-		0495C24B163B4AC200083A9E /* 000020 　　第二章 最大的恐惧 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C157163B4AC200083A9E /* 000020 　　第二章 最大的恐惧 .txt */; };
-		0495C24C163B4AC200083A9E /* 000021 　　第三章 地底星光 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C158163B4AC200083A9E /* 000021 　　第三章 地底星光 .txt */; };
-		0495C24D163B4AC200083A9E /* 000022 　　第四章 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C159163B4AC200083A9E /* 000022 　　第四章 .txt */; };
-		0495C24E163B4AC200083A9E /* 000023 　　第五章 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C15A163B4AC200083A9E /* 000023 　　第五章 .txt */; };
-		0495C24F163B4AC200083A9E /* 000024 　　第六章 信仰 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C15B163B4AC200083A9E /* 000024 　　第六章 信仰 .txt */; };
-		0495C250163B4AC200083A9E /* Z7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C15C163B4AC200083A9E /* Z7.jpg */; };
-		0495C251163B4AC200083A9E /* 000001 　　第五十四章 喜马拉雅雪人之谜 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C15E163B4AC200083A9E /* 000001 　　第五十四章 喜马拉雅雪人之谜 .txt */; };
-		0495C252163B4AC200083A9E /* 000002 　　第五十五章 喜马拉雅雪人，现在在哪儿？ .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C15F163B4AC200083A9E /* 000002 　　第五十五章 喜马拉雅雪人，现在在哪儿？ .txt */; };
-		0495C253163B4AC200083A9E /* 000003 　　第五十六章 蛊毒患者 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C160163B4AC200083A9E /* 000003 　　第五十六章 蛊毒患者 .txt */; };
-		0495C254163B4AC200083A9E /* 000004 　　第五十七章 穆族遗迹 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C161163B4AC200083A9E /* 000004 　　第五十七章 穆族遗迹 .txt */; };
-		0495C255163B4AC200083A9E /* 000005 　　第五十八章 奇迹之城雀母 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C162163B4AC200083A9E /* 000005 　　第五十八章 奇迹之城雀母 .txt */; };
-		0495C256163B4AC200083A9E /* 000006 　　第五十九章 神秘王国雅加　　 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C163163B4AC200083A9E /* 000006 　　第五十九章 神秘王国雅加　　 .txt */; };
-		0495C257163B4AC200083A9E /* 000007 　　第六十章 寻找回归之路的密修者 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C164163B4AC200083A9E /* 000007 　　第六十章 寻找回归之路的密修者 .txt */; };
-		0495C258163B4AC200083A9E /* 000008 　　第六十一章胡杨队长之死 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C165163B4AC200083A9E /* 000008 　　第六十一章胡杨队长之死 .txt */; };
-		0495C259163B4AC200083A9E /* Z8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C166163B4AC200083A9E /* Z8.jpg */; };
-		0495C25A163B4AC200083A9E /* 000014 　　《藏地密码9》第六十二章 灵魂转世之谜 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C168163B4AC200083A9E /* 000014 　　《藏地密码9》第六十二章 灵魂转世之谜 .txt */; };
-		0495C25B163B4AC200083A9E /* 000015 　　第六十六章（1）　张立托母 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C169163B4AC200083A9E /* 000015 　　第六十六章（1）　张立托母 .txt */; };
-		0495C25C163B4AC200083A9E /* 000016 　　第六十五章人狼大战 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C16A163B4AC200083A9E /* 000016 　　第六十五章人狼大战 .txt */; };
-		0495C25D163B4AC200083A9E /* 000017 　　第六十六章硬汉巴桑之死 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C16B163B4AC200083A9E /* 000017 　　第六十六章硬汉巴桑之死 .txt */; };
-		0495C25E163B4AC200083A9E /* 000018 　　第六十七章再遇灰狼三兄弟 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 0495C16C163B4AC200083A9E /* 000018 　　第六十七章再遇灰狼三兄弟 .txt */; };
-		0495C25F163B4AC200083A9E /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 0495C16D163B4AC200083A9E /* Thumbs.db */; };
-		0495C260163B4AC200083A9E /* Z9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C16E163B4AC200083A9E /* Z9.jpg */; };
 		0495C262163B4AC200083A9E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0495C173163B4AC200083A9E /* background.jpg */; };
 		0495C263163B4AC200083A9E /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0495C174163B4AC200083A9E /* bookmark.png */; };
 		0495C264163B4AC200083A9E /* bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0495C175163B4AC200083A9E /* bookmark@2x.png */; };
@@ -205,6 +110,97 @@
 		04975D77162ABF39006C66EE /* AccountCategory.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04975D76162ABF39006C66EE /* AccountCategory.xml */; };
 		04975D7D162B738E006C66EE /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D7C162B738E006C66EE /* Tree.m */; };
 		04975D80162B73D5006C66EE /* LatestBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975D7F162B73D5006C66EE /* LatestBooks.m */; };
+		04A10104164350D500E9077B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A100FA164350D500E9077B /* ioapi.c */; };
+		04A10105164350D500E9077B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A100FC164350D500E9077B /* mztools.c */; };
+		04A10106164350D500E9077B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A100FE164350D500E9077B /* unzip.c */; };
+		04A10107164350D500E9077B /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A10100164350D500E9077B /* zip.c */; };
+		04A10108164350D500E9077B /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04A10103164350D500E9077B /* ZipArchive.mm */; };
+		04A101B51644AE1300E9077B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 04A1010F1644AE1200E9077B /* .gitignore */; };
+		04A101B61644AE1300E9077B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 04A101101644AE1200E9077B /* README */; };
+		04A101B71644AE1300E9077B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 04A101121644AE1200E9077B /* .gitignore */; };
+		04A101B81644AE1300E9077B /* Framework.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A101131644AE1200E9077B /* Framework.plist */; };
+		04A101B91644AE1300E9077B /* RARExtractException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A101151644AE1200E9077B /* RARExtractException.m */; };
+		04A101BA1644AE1300E9077B /* arccmt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101171644AE1200E9077B /* arccmt.cpp */; };
+		04A101BB1644AE1300E9077B /* archive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101181644AE1200E9077B /* archive.cpp */; };
+		04A101BC1644AE1300E9077B /* arcread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1011A1644AE1200E9077B /* arcread.cpp */; };
+		04A101BD1644AE1300E9077B /* beosea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1011C1644AE1200E9077B /* beosea.cpp */; };
+		04A101BE1644AE1300E9077B /* cmddata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1011D1644AE1200E9077B /* cmddata.cpp */; };
+		04A101BF1644AE1300E9077B /* coder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1011F1644AE1200E9077B /* coder.cpp */; };
+		04A101C01644AE1300E9077B /* consio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101221644AE1200E9077B /* consio.cpp */; };
+		04A101C11644AE1300E9077B /* crc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101241644AE1200E9077B /* crc.cpp */; };
+		04A101C21644AE1300E9077B /* crypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101261644AE1200E9077B /* crypt.cpp */; };
+		04A101C31644AE1300E9077B /* dll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101281644AE1200E9077B /* dll.cpp */; };
+		04A101C41644AE1300E9077B /* dll.def in Resources */ = {isa = PBXBuildFile; fileRef = 04A101291644AE1200E9077B /* dll.def */; };
+		04A101C51644AE1300E9077B /* dll.rc in Resources */ = {isa = PBXBuildFile; fileRef = 04A1012B1644AE1200E9077B /* dll.rc */; };
+		04A101C61644AE1300E9077B /* encname.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1012C1644AE1200E9077B /* encname.cpp */; };
+		04A101C71644AE1300E9077B /* errhnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1012E1644AE1200E9077B /* errhnd.cpp */; };
+		04A101C81644AE1300E9077B /* extinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101301644AE1200E9077B /* extinfo.cpp */; };
+		04A101C91644AE1300E9077B /* extract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101321644AE1200E9077B /* extract.cpp */; };
+		04A101CA1644AE1300E9077B /* filcreat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101341644AE1200E9077B /* filcreat.cpp */; };
+		04A101CB1644AE1300E9077B /* file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101361644AE1200E9077B /* file.cpp */; };
+		04A101CC1644AE1300E9077B /* filefn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101381644AE1200E9077B /* filefn.cpp */; };
+		04A101CD1644AE1300E9077B /* filestr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1013A1644AE1200E9077B /* filestr.cpp */; };
+		04A101CE1644AE1300E9077B /* find.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1013C1644AE1200E9077B /* find.cpp */; };
+		04A101CF1644AE1300E9077B /* getbits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1013E1644AE1200E9077B /* getbits.cpp */; };
+		04A101D01644AE1300E9077B /* global.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101401644AE1200E9077B /* global.cpp */; };
+		04A101D11644AE1300E9077B /* isnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101431644AE1200E9077B /* isnt.cpp */; };
+		04A101D21644AE1300E9077B /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04A101451644AE1200E9077B /* license.txt */; };
+		04A101D31644AE1300E9077B /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101461644AE1200E9077B /* list.cpp */; };
+		04A101D41644AE1300E9077B /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101491644AE1200E9077B /* log.cpp */; };
+		04A101D51644AE1300E9077B /* makefile.bcc in Resources */ = {isa = PBXBuildFile; fileRef = 04A1014B1644AE1200E9077B /* makefile.bcc */; };
+		04A101D61644AE1300E9077B /* makefile.cygmin in Resources */ = {isa = PBXBuildFile; fileRef = 04A1014C1644AE1200E9077B /* makefile.cygmin */; };
+		04A101D71644AE1300E9077B /* makefile.dj in Resources */ = {isa = PBXBuildFile; fileRef = 04A1014D1644AE1200E9077B /* makefile.dj */; };
+		04A101D81644AE1300E9077B /* makefile.dmc in Resources */ = {isa = PBXBuildFile; fileRef = 04A1014E1644AE1200E9077B /* makefile.dmc */; };
+		04A101D91644AE1300E9077B /* makefile.unix in Resources */ = {isa = PBXBuildFile; fileRef = 04A1014F1644AE1200E9077B /* makefile.unix */; };
+		04A101DA1644AE1300E9077B /* match.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101501644AE1200E9077B /* match.cpp */; };
+		04A101DB1644AE1300E9077B /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101521644AE1200E9077B /* model.cpp */; };
+		04A101DC1644AE1300E9077B /* msc.dep in Resources */ = {isa = PBXBuildFile; fileRef = 04A101541644AE1200E9077B /* msc.dep */; };
+		04A101DD1644AE1300E9077B /* options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101551644AE1200E9077B /* options.cpp */; };
+		04A101DE1644AE1300E9077B /* os2ea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101581644AE1200E9077B /* os2ea.cpp */; };
+		04A101DF1644AE1300E9077B /* pathfn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101591644AE1200E9077B /* pathfn.cpp */; };
+		04A101E01644AE1300E9077B /* rar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1015B1644AE1200E9077B /* rar.cpp */; };
+		04A101E11644AE1300E9077B /* rarpch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101601644AE1200E9077B /* rarpch.cpp */; };
+		04A101E21644AE1300E9077B /* rarvm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101621644AE1200E9077B /* rarvm.cpp */; };
+		04A101E31644AE1300E9077B /* rarvmtbl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101641644AE1200E9077B /* rarvmtbl.cpp */; };
+		04A101E41644AE1300E9077B /* rawread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101651644AE1200E9077B /* rawread.cpp */; };
+		04A101E51644AE1300E9077B /* rdwrfn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101671644AE1200E9077B /* rdwrfn.cpp */; };
+		04A101E61644AE1300E9077B /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04A101691644AE1200E9077B /* readme.txt */; };
+		04A101E71644AE1300E9077B /* recvol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1016A1644AE1200E9077B /* recvol.cpp */; };
+		04A101E81644AE1300E9077B /* resource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1016C1644AE1200E9077B /* resource.cpp */; };
+		04A101E91644AE1300E9077B /* rijndael.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1016E1644AE1200E9077B /* rijndael.cpp */; };
+		04A101EA1644AE1300E9077B /* rs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101701644AE1200E9077B /* rs.cpp */; };
+		04A101EB1644AE1300E9077B /* savepos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101721644AE1200E9077B /* savepos.cpp */; };
+		04A101EC1644AE1300E9077B /* scantree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101741644AE1200E9077B /* scantree.cpp */; };
+		04A101ED1644AE1300E9077B /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101761644AE1200E9077B /* sha1.cpp */; };
+		04A101EE1644AE1300E9077B /* smallfn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101781644AE1200E9077B /* smallfn.cpp */; };
+		04A101EF1644AE1300E9077B /* strfn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1017A1644AE1200E9077B /* strfn.cpp */; };
+		04A101F01644AE1300E9077B /* strlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1017C1644AE1200E9077B /* strlist.cpp */; };
+		04A101F11644AE1300E9077B /* suballoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1017E1644AE1200E9077B /* suballoc.cpp */; };
+		04A101F21644AE1300E9077B /* system.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101801644AE1200E9077B /* system.cpp */; };
+		04A101F31644AE1300E9077B /* timefn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101821644AE1200E9077B /* timefn.cpp */; };
+		04A101F41644AE1300E9077B /* ulinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101841644AE1200E9077B /* ulinks.cpp */; };
+		04A101F51644AE1300E9077B /* unicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101861644AE1200E9077B /* unicode.cpp */; };
+		04A101F61644AE1300E9077B /* unios2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101881644AE1200E9077B /* unios2.cpp */; };
+		04A101F71644AE1300E9077B /* unpack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101891644AE1200E9077B /* unpack.cpp */; };
+		04A101F81644AE1300E9077B /* unpack15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1018B1644AE1200E9077B /* unpack15.cpp */; };
+		04A101F91644AE1300E9077B /* unpack20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1018C1644AE1200E9077B /* unpack20.cpp */; };
+		04A101FA1644AE1300E9077B /* UnRAR.vcproj in Resources */ = {isa = PBXBuildFile; fileRef = 04A1018D1644AE1200E9077B /* UnRAR.vcproj */; };
+		04A101FB1644AE1300E9077B /* UnRARDll.vcproj in Resources */ = {isa = PBXBuildFile; fileRef = 04A1018E1644AE1200E9077B /* UnRARDll.vcproj */; };
+		04A101FC1644AE1300E9077B /* uowners.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A1018F1644AE1200E9077B /* uowners.cpp */; };
+		04A101FD1644AE1300E9077B /* volume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101911644AE1200E9077B /* volume.cpp */; };
+		04A101FE1644AE1300E9077B /* win32acl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101931644AE1200E9077B /* win32acl.cpp */; };
+		04A101FF1644AE1300E9077B /* win32stm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A101941644AE1200E9077B /* win32stm.cpp */; };
+		04A102001644AE1300E9077B /* Unrar4iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04A101961644AE1200E9077B /* Unrar4iOS.mm */; };
+		04A102011644AE1300E9077B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 04A1019C1644AE1200E9077B /* .gitignore */; };
+		04A102021644AE1300E9077B /* UnrarExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1019F1644AE1200E9077B /* UnrarExampleAppDelegate.m */; };
+		04A102031644AE1300E9077B /* UnrarExampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04A101A11644AE1200E9077B /* UnrarExampleViewController.mm */; };
+		04A102041644AE1300E9077B /* Unrar4iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A101A31644AE1200E9077B /* Unrar4iOS.framework */; };
+		04A102051644AE1300E9077B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A101A41644AE1200E9077B /* main.m */; };
+		04A102061644AE1300E9077B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A101A51644AE1200E9077B /* MainWindow.xib */; };
+		04A102071644AE1300E9077B /* not_protected.cbr in Resources */ = {isa = PBXBuildFile; fileRef = 04A101A61644AE1200E9077B /* not_protected.cbr */; };
+		04A102081644AE1300E9077B /* protected.cbr in Resources */ = {isa = PBXBuildFile; fileRef = 04A101A71644AE1200E9077B /* protected.cbr */; };
+		04A102091644AE1300E9077B /* UnrarExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A101A81644AE1200E9077B /* UnrarExample-Info.plist */; };
+		04A1020A1644AE1300E9077B /* UnrarExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A101AD1644AE1200E9077B /* UnrarExampleViewController.xib */; };
 		04A82FF71623900F00FAE668 /* ExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FDC1623900F00FAE668 /* ExamplesViewController.m */; };
 		04A82FF81623900F00FAE668 /* ImageExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FDE1623900F00FAE668 /* ImageExampleViewController.m */; };
 		04A82FF91623900F00FAE668 /* LeavesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A82FE01623900F00FAE668 /* LeavesAppDelegate.m */; };
@@ -289,6 +285,23 @@
 		7DF382DA13326D0100738192 /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF382D913326D0100738192 /* Icon-iPad.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04A1020C1644AE1300E9077B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A101971644AE1200E9077B /* Unrar4iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = Unrar4iOS;
+		};
+		04A1020F1644AE1300E9077B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A101A91644AE1200E9077B /* UnrarExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = UnrarExample;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0495C0C0163B4AC100083A9E /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
 		0495C0C1163B4AC100083A9E /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
@@ -345,101 +358,6 @@
 		0495C104163B4AC100083A9E /* 000006 　　藏地密码1 第六章 笔记之谜 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　藏地密码1 第六章 笔记之谜 .txt"; sourceTree = "<group>"; };
 		0495C105163B4AC100083A9E /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt"; sourceTree = "<group>"; };
 		0495C106163B4AC100083A9E /* Z1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z1.jpg; sourceTree = "<group>"; };
-		0495C108163B4AC100083A9E /* 000001 　　第七十章万狼之王紫麒麟 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000001 　　第七十章万狼之王紫麒麟 .txt"; sourceTree = "<group>"; };
-		0495C109163B4AC100083A9E /* 000002 　　第七十一章狼之禁地 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000002 　　第七十一章狼之禁地 .txt"; sourceTree = "<group>"; };
-		0495C10A163B4AC100083A9E /* 000003 　　第七十二章众生之门 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000003 　　第七十二章众生之门 .txt"; sourceTree = "<group>"; };
-		0495C10B163B4AC100083A9E /* 000004 　　第七十三章浮生之河 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000004 　　第七十三章浮生之河 .txt"; sourceTree = "<group>"; };
-		0495C10C163B4AC100083A9E /* 000005 　　第七十四章欢迎来到帕巴拉！ .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000005 　　第七十四章欢迎来到帕巴拉！ .txt"; sourceTree = "<group>"; };
-		0495C10D163B4AC100083A9E /* 000006 　　第七十五章西藏众神 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　第七十五章西藏众神 .txt"; sourceTree = "<group>"; };
-		0495C10E163B4AC100083A9E /* 000007 　　第七十六章西藏万佛阁 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　第七十六章西藏万佛阁 .txt"; sourceTree = "<group>"; };
-		0495C10F163B4AC100083A9E /* 000008 　　第七十七章抵达神庙核心 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000008 　　第七十七章抵达神庙核心 .txt"; sourceTree = "<group>"; };
-		0495C110163B4AC100083A9E /* 000009 　　第八十章千年前的故事 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000009 　　第八十章千年前的故事 .txt"; sourceTree = "<group>"; };
-		0495C111163B4AC100083A9E /* 000010 　　第八十一章以一张照片结束 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000010 　　第八十一章以一张照片结束 .txt"; sourceTree = "<group>"; };
-		0495C112163B4AC100083A9E /* Z10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z10.jpg; sourceTree = "<group>"; };
-		0495C114163B4AC100083A9E /* 000001 　　第八章 出发！亚马逊丛林！ .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000001 　　第八章 出发！亚马逊丛林！ .txt"; sourceTree = "<group>"; };
-		0495C115163B4AC200083A9E /* 000002 　　藏地密码2 第九章 丛林危机 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000002 　　藏地密码2 第九章 丛林危机 .txt"; sourceTree = "<group>"; };
-		0495C116163B4AC200083A9E /* 000003 　　藏地密码2 第十章 深陷原始部落库库尔族 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000003 　　藏地密码2 第十章 深陷原始部落库库尔族 .txt"; sourceTree = "<group>"; };
-		0495C117163B4AC200083A9E /* 000004 　　藏地密码2 第十一章 叹息丛林：探险家的坟墓 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000004 　　藏地密码2 第十一章 叹息丛林：探险家的坟墓 .txt"; sourceTree = "<group>"; };
-		0495C118163B4AC200083A9E /* 000005 　　藏地密码2 第十二章 洪荒：上帝之手 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000005 　　藏地密码2 第十二章 洪荒：上帝之手 .txt"; sourceTree = "<group>"; };
-		0495C119163B4AC200083A9E /* 000006 　　藏地密码2 第十三章 我们被食人族绑架了！ .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　藏地密码2 第十三章 我们被食人族绑架了！ .txt"; sourceTree = "<group>"; };
-		0495C11A163B4AC200083A9E /* 000007 　　藏地密码2 第十四章 玛雅圣城 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　藏地密码2 第十四章 玛雅圣城 .txt"; sourceTree = "<group>"; };
-		0495C11B163B4AC200083A9E /* Z2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z2.jpg; sourceTree = "<group>"; };
-		0495C11D163B4AC200083A9E /* 000001 　　第十五章 玛雅迷宫 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000001 　　第十五章 玛雅迷宫 .txt"; sourceTree = "<group>"; };
-		0495C11E163B4AC200083A9E /* 000002 　　藏地密码3 第十六章 水火地狱 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000002 　　藏地密码3 第十六章 水火地狱 .txt"; sourceTree = "<group>"; };
-		0495C11F163B4AC200083A9E /* 000003 　　藏地密码3 第十七章 血池 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000003 　　藏地密码3 第十七章 血池 .txt"; sourceTree = "<group>"; };
-		0495C120163B4AC200083A9E /* 000004 　　藏地密码3 第十八章 回到西藏 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000004 　　藏地密码3 第十八章 回到西藏 .txt"; sourceTree = "<group>"; };
-		0495C121163B4AC200083A9E /* 000005 　　藏地密码3 第十九章 玛雅：华夏文明的美洲变种 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000005 　　藏地密码3 第十九章 玛雅：华夏文明的美洲变种 .txt"; sourceTree = "<group>"; };
-		0495C122163B4AC200083A9E /* 000006 　　藏地密码3 第二十章 西藏墨脱：最后的秘境 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　藏地密码3 第二十章 西藏墨脱：最后的秘境 .txt"; sourceTree = "<group>"; };
-		0495C123163B4AC200083A9E /* 000007 　　藏地密码3 第二十一章 生命之门 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　藏地密码3 第二十一章 生命之门 .txt"; sourceTree = "<group>"; };
-		0495C124163B4AC200083A9E /* 000008 　　藏地密码3 第二十二章 地狱之门 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000008 　　藏地密码3 第二十二章 地狱之门 .txt"; sourceTree = "<group>"; };
-		0495C125163B4AC200083A9E /* Z3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z3.jpg; sourceTree = "<group>"; };
-		0495C127163B4AC200083A9E /* 000001 　　第二十三章 高原雪狼 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000001 　　第二十三章 高原雪狼 .txt"; sourceTree = "<group>"; };
-		0495C128163B4AC200083A9E /* 000002 　　藏地密码4 第二十四章 倒悬空寺 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000002 　　藏地密码4 第二十四章 倒悬空寺 .txt"; sourceTree = "<group>"; };
-		0495C129163B4AC200083A9E /* 000003 　　藏地密码4 第二十五章 巨门之后 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000003 　　藏地密码4 第二十五章 巨门之后 .txt"; sourceTree = "<group>"; };
-		0495C12A163B4AC200083A9E /* 000004 　　藏地密码4 第二十六章 巨佛内部 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000004 　　藏地密码4 第二十六章 巨佛内部 .txt"; sourceTree = "<group>"; };
-		0495C12B163B4AC200083A9E /* 000005 　　藏地密码4 第二十七章 终极血池 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000005 　　藏地密码4 第二十七章 终极血池 .txt"; sourceTree = "<group>"; };
-		0495C12C163B4AC200083A9E /* 000006 　　藏地密码4 第二十八章 西藏古格 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　藏地密码4 第二十八章 西藏古格 .txt"; sourceTree = "<group>"; };
-		0495C12D163B4AC200083A9E /* 000007 　　藏地密码4 第二十九章 千年一战 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　藏地密码4 第二十九章 千年一战 .txt"; sourceTree = "<group>"; };
-		0495C12E163B4AC200083A9E /* 000008 　　藏地密码4 第三十章 西藏密教 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000008 　　藏地密码4 第三十章 西藏密教 .txt"; sourceTree = "<group>"; };
-		0495C12F163B4AC200083A9E /* Z4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z4.jpg; sourceTree = "<group>"; };
-		0495C131163B4AC200083A9E /* 000001 　　第三十一章 雪山仆从 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000001 　　第三十一章 雪山仆从 .txt"; sourceTree = "<group>"; };
-		0495C132163B4AC200083A9E /* 000002 　　藏地密码5 第三十二章 紫麒麟猜想 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000002 　　藏地密码5 第三十二章 紫麒麟猜想 .txt"; sourceTree = "<group>"; };
-		0495C133163B4AC200083A9E /* 000003 　　藏地密码5 第三十三章 绝没见过的狼 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000003 　　藏地密码5 第三十三章 绝没见过的狼 .txt"; sourceTree = "<group>"; };
-		0495C134163B4AC200083A9E /* 000004 　　藏地密码5 第三十四章 水晶宫 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000004 　　藏地密码5 第三十四章 水晶宫 .txt"; sourceTree = "<group>"; };
-		0495C135163B4AC200083A9E /* 000005 　　藏地密码5 第三十五章 极南庙 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000005 　　藏地密码5 第三十五章 极南庙 .txt"; sourceTree = "<group>"; };
-		0495C136163B4AC200083A9E /* 000006 　　藏地密码5 第三十六章 死亡西风带 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　藏地密码5 第三十六章 死亡西风带 .txt"; sourceTree = "<group>"; };
-		0495C137163B4AC200083A9E /* 000007 　　藏地密码5 第三十七章 唐涛的日记 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　藏地密码5 第三十七章 唐涛的日记 .txt"; sourceTree = "<group>"; };
-		0495C138163B4AC200083A9E /* 000008 　　藏地密码5 第三十八章 人生的宿命 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000008 　　藏地密码5 第三十八章 人生的宿命 .txt"; sourceTree = "<group>"; };
-		0495C139163B4AC200083A9E /* Z5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z5.jpg; sourceTree = "<group>"; };
-		0495C13B163B4AC200083A9E /* 000001 　　第三十九章 希特勒秘闻 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000001 　　第三十九章 希特勒秘闻 .txt"; sourceTree = "<group>"; };
-		0495C13C163B4AC200083A9E /* 000002 　　第四十章 德军进藏秘密史料 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000002 　　第四十章 德军进藏秘密史料 .txt"; sourceTree = "<group>"; };
-		0495C13D163B4AC200083A9E /* 000003 　　第四十一章 德军进藏秘密地图 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000003 　　第四十一章 德军进藏秘密地图 .txt"; sourceTree = "<group>"; };
-		0495C13E163B4AC200083A9E /* 000004 　　第四十二章 希特勒第一次派人进藏之谜 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000004 　　第四十二章 希特勒第一次派人进藏之谜 .txt"; sourceTree = "<group>"; };
-		0495C13F163B4AC200083A9E /* 000005 　　第四十三章 希特勒第二次派人进藏之谜 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000005 　　第四十三章 希特勒第二次派人进藏之谜 .txt"; sourceTree = "<group>"; };
-		0495C140163B4AC200083A9E /* 000006 　　第四十四章 香巴拉真身之谜 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　第四十四章 香巴拉真身之谜 .txt"; sourceTree = "<group>"; };
-		0495C141163B4AC200083A9E /* 000007 　　第四十五章 冥河：西藏最神秘的河 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　第四十五章 冥河：西藏最神秘的河 .txt"; sourceTree = "<group>"; };
-		0495C142163B4AC200083A9E /* Z6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z6.jpg; sourceTree = "<group>"; };
-		0495C144163B4AC200083A9E /* 000001 　　第四十六章 大天轮经：藏密最高法典 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000001 　　第四十六章 大天轮经：藏密最高法典 .txt"; sourceTree = "<group>"; };
-		0495C145163B4AC200083A9E /* 000002 　　第一章 穿行地下河 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000002 　　第一章 穿行地下河 .txt"; sourceTree = "<group>"; };
-		0495C146163B4AC200083A9E /* 000003 　　第二章 涨水 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000003 　　第二章 涨水 .txt"; sourceTree = "<group>"; };
-		0495C147163B4AC200083A9E /* 000004 　　第三章 第一个二十四小时 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000004 　　第三章 第一个二十四小时 .txt"; sourceTree = "<group>"; };
-		0495C148163B4AC200083A9E /* 000005 　　第四章 死神到访 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000005 　　第四章 死神到访 .txt"; sourceTree = "<group>"; };
-		0495C149163B4AC200083A9E /* 000006 　　第一章 激励与地底瀑步 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　第一章 激励与地底瀑步 .txt"; sourceTree = "<group>"; };
-		0495C14A163B4AC200083A9E /* 000007 　　第二章 变故突生 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　第二章 变故突生 .txt"; sourceTree = "<group>"; };
-		0495C14B163B4AC200083A9E /* 000008 　　第三章 大昭寺前的男子 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000008 　　第三章 大昭寺前的男子 .txt"; sourceTree = "<group>"; };
-		0495C14C163B4AC200083A9E /* 000009 　　第四章 浪口余生 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000009 　　第四章 浪口余生 .txt"; sourceTree = "<group>"; };
-		0495C14D163B4AC200083A9E /* 000010 　　第一章 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000010 　　第一章 .txt"; sourceTree = "<group>"; };
-		0495C14E163B4AC200083A9E /* 000011 　　第二章 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000011 　　第二章 .txt"; sourceTree = "<group>"; };
-		0495C14F163B4AC200083A9E /* 000012 　　第三章 第五次涌水 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000012 　　第三章 第五次涌水 .txt"; sourceTree = "<group>"; };
-		0495C150163B4AC200083A9E /* 000013 　　第四章 没有光的世界 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000013 　　第四章 没有光的世界 .txt"; sourceTree = "<group>"; };
-		0495C151163B4AC200083A9E /* 000014 　　第一章 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000014 　　第一章 .txt"; sourceTree = "<group>"; };
-		0495C152163B4AC200083A9E /* 000015 　　第二章 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000015 　　第二章 .txt"; sourceTree = "<group>"; };
-		0495C153163B4AC200083A9E /* 000016 　　第三章 应战潮汐 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000016 　　第三章 应战潮汐 .txt"; sourceTree = "<group>"; };
-		0495C154163B4AC200083A9E /* 000017 　　第四章 巨浪的考验 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000017 　　第四章 巨浪的考验 .txt"; sourceTree = "<group>"; };
-		0495C155163B4AC200083A9E /* 000018 　　第五章 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000018 　　第五章 .txt"; sourceTree = "<group>"; };
-		0495C156163B4AC200083A9E /* 000019 　　第一章 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000019 　　第一章 .txt"; sourceTree = "<group>"; };
-		0495C157163B4AC200083A9E /* 000020 　　第二章 最大的恐惧 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000020 　　第二章 最大的恐惧 .txt"; sourceTree = "<group>"; };
-		0495C158163B4AC200083A9E /* 000021 　　第三章 地底星光 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000021 　　第三章 地底星光 .txt"; sourceTree = "<group>"; };
-		0495C159163B4AC200083A9E /* 000022 　　第四章 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000022 　　第四章 .txt"; sourceTree = "<group>"; };
-		0495C15A163B4AC200083A9E /* 000023 　　第五章 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000023 　　第五章 .txt"; sourceTree = "<group>"; };
-		0495C15B163B4AC200083A9E /* 000024 　　第六章 信仰 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000024 　　第六章 信仰 .txt"; sourceTree = "<group>"; };
-		0495C15C163B4AC200083A9E /* Z7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z7.jpg; sourceTree = "<group>"; };
-		0495C15E163B4AC200083A9E /* 000001 　　第五十四章 喜马拉雅雪人之谜 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000001 　　第五十四章 喜马拉雅雪人之谜 .txt"; sourceTree = "<group>"; };
-		0495C15F163B4AC200083A9E /* 000002 　　第五十五章 喜马拉雅雪人，现在在哪儿？ .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000002 　　第五十五章 喜马拉雅雪人，现在在哪儿？ .txt"; sourceTree = "<group>"; };
-		0495C160163B4AC200083A9E /* 000003 　　第五十六章 蛊毒患者 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000003 　　第五十六章 蛊毒患者 .txt"; sourceTree = "<group>"; };
-		0495C161163B4AC200083A9E /* 000004 　　第五十七章 穆族遗迹 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000004 　　第五十七章 穆族遗迹 .txt"; sourceTree = "<group>"; };
-		0495C162163B4AC200083A9E /* 000005 　　第五十八章 奇迹之城雀母 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000005 　　第五十八章 奇迹之城雀母 .txt"; sourceTree = "<group>"; };
-		0495C163163B4AC200083A9E /* 000006 　　第五十九章 神秘王国雅加　　 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　第五十九章 神秘王国雅加　　 .txt"; sourceTree = "<group>"; };
-		0495C164163B4AC200083A9E /* 000007 　　第六十章 寻找回归之路的密修者 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　第六十章 寻找回归之路的密修者 .txt"; sourceTree = "<group>"; };
-		0495C165163B4AC200083A9E /* 000008 　　第六十一章胡杨队长之死 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000008 　　第六十一章胡杨队长之死 .txt"; sourceTree = "<group>"; };
-		0495C166163B4AC200083A9E /* Z8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z8.jpg; sourceTree = "<group>"; };
-		0495C168163B4AC200083A9E /* 000014 　　《藏地密码9》第六十二章 灵魂转世之谜 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000014 　　《藏地密码9》第六十二章 灵魂转世之谜 .txt"; sourceTree = "<group>"; };
-		0495C169163B4AC200083A9E /* 000015 　　第六十六章（1）　张立托母 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000015 　　第六十六章（1）　张立托母 .txt"; sourceTree = "<group>"; };
-		0495C16A163B4AC200083A9E /* 000016 　　第六十五章人狼大战 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000016 　　第六十五章人狼大战 .txt"; sourceTree = "<group>"; };
-		0495C16B163B4AC200083A9E /* 000017 　　第六十六章硬汉巴桑之死 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000017 　　第六十六章硬汉巴桑之死 .txt"; sourceTree = "<group>"; };
-		0495C16C163B4AC200083A9E /* 000018 　　第六十七章再遇灰狼三兄弟 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000018 　　第六十七章再遇灰狼三兄弟 .txt"; sourceTree = "<group>"; };
-		0495C16D163B4AC200083A9E /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
-		0495C16E163B4AC200083A9E /* Z9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z9.jpg; sourceTree = "<group>"; };
 		0495C173163B4AC200083A9E /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		0495C174163B4AC200083A9E /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
 		0495C175163B4AC200083A9E /* bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark@2x.png"; sourceTree = "<group>"; };
@@ -548,6 +466,167 @@
 		04975D7C162B738E006C66EE /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		04975D7E162B73D5006C66EE /* LatestBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatestBooks.h; sourceTree = "<group>"; };
 		04975D7F162B73D5006C66EE /* LatestBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatestBooks.m; sourceTree = "<group>"; };
+		04A100F9164350D500E9077B /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		04A100FA164350D500E9077B /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		04A100FB164350D500E9077B /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		04A100FC164350D500E9077B /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		04A100FD164350D500E9077B /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		04A100FE164350D500E9077B /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		04A100FF164350D500E9077B /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		04A10100164350D500E9077B /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		04A10101164350D500E9077B /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		04A10102164350D500E9077B /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		04A10103164350D500E9077B /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		04A1010F1644AE1200E9077B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		04A101101644AE1200E9077B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		04A101121644AE1200E9077B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		04A101131644AE1200E9077B /* Framework.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Framework.plist; sourceTree = "<group>"; };
+		04A101141644AE1200E9077B /* RARExtractException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARExtractException.h; sourceTree = "<group>"; };
+		04A101151644AE1200E9077B /* RARExtractException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RARExtractException.m; sourceTree = "<group>"; };
+		04A101171644AE1200E9077B /* arccmt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arccmt.cpp; sourceTree = "<group>"; };
+		04A101181644AE1200E9077B /* archive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = archive.cpp; sourceTree = "<group>"; };
+		04A101191644AE1200E9077B /* archive.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = archive.hpp; sourceTree = "<group>"; };
+		04A1011A1644AE1200E9077B /* arcread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arcread.cpp; sourceTree = "<group>"; };
+		04A1011B1644AE1200E9077B /* array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
+		04A1011C1644AE1200E9077B /* beosea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = beosea.cpp; sourceTree = "<group>"; };
+		04A1011D1644AE1200E9077B /* cmddata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cmddata.cpp; sourceTree = "<group>"; };
+		04A1011E1644AE1200E9077B /* cmddata.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cmddata.hpp; sourceTree = "<group>"; };
+		04A1011F1644AE1200E9077B /* coder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coder.cpp; sourceTree = "<group>"; };
+		04A101201644AE1200E9077B /* coder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = coder.hpp; sourceTree = "<group>"; };
+		04A101211644AE1200E9077B /* compress.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = compress.hpp; sourceTree = "<group>"; };
+		04A101221644AE1200E9077B /* consio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = consio.cpp; sourceTree = "<group>"; };
+		04A101231644AE1200E9077B /* consio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = consio.hpp; sourceTree = "<group>"; };
+		04A101241644AE1200E9077B /* crc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crc.cpp; sourceTree = "<group>"; };
+		04A101251644AE1200E9077B /* crc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = crc.hpp; sourceTree = "<group>"; };
+		04A101261644AE1200E9077B /* crypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crypt.cpp; sourceTree = "<group>"; };
+		04A101271644AE1200E9077B /* crypt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = crypt.hpp; sourceTree = "<group>"; };
+		04A101281644AE1200E9077B /* dll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dll.cpp; sourceTree = "<group>"; };
+		04A101291644AE1200E9077B /* dll.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dll.def; sourceTree = "<group>"; };
+		04A1012A1644AE1200E9077B /* dll.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dll.hpp; sourceTree = "<group>"; };
+		04A1012B1644AE1200E9077B /* dll.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dll.rc; sourceTree = "<group>"; };
+		04A1012C1644AE1200E9077B /* encname.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encname.cpp; sourceTree = "<group>"; };
+		04A1012D1644AE1200E9077B /* encname.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = encname.hpp; sourceTree = "<group>"; };
+		04A1012E1644AE1200E9077B /* errhnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = errhnd.cpp; sourceTree = "<group>"; };
+		04A1012F1644AE1200E9077B /* errhnd.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = errhnd.hpp; sourceTree = "<group>"; };
+		04A101301644AE1200E9077B /* extinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = extinfo.cpp; sourceTree = "<group>"; };
+		04A101311644AE1200E9077B /* extinfo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = extinfo.hpp; sourceTree = "<group>"; };
+		04A101321644AE1200E9077B /* extract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = extract.cpp; sourceTree = "<group>"; };
+		04A101331644AE1200E9077B /* extract.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = extract.hpp; sourceTree = "<group>"; };
+		04A101341644AE1200E9077B /* filcreat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filcreat.cpp; sourceTree = "<group>"; };
+		04A101351644AE1200E9077B /* filcreat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = filcreat.hpp; sourceTree = "<group>"; };
+		04A101361644AE1200E9077B /* file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file.cpp; sourceTree = "<group>"; };
+		04A101371644AE1200E9077B /* file.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = file.hpp; sourceTree = "<group>"; };
+		04A101381644AE1200E9077B /* filefn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filefn.cpp; sourceTree = "<group>"; };
+		04A101391644AE1200E9077B /* filefn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = filefn.hpp; sourceTree = "<group>"; };
+		04A1013A1644AE1200E9077B /* filestr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filestr.cpp; sourceTree = "<group>"; };
+		04A1013B1644AE1200E9077B /* filestr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = filestr.hpp; sourceTree = "<group>"; };
+		04A1013C1644AE1200E9077B /* find.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = find.cpp; sourceTree = "<group>"; };
+		04A1013D1644AE1200E9077B /* find.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = find.hpp; sourceTree = "<group>"; };
+		04A1013E1644AE1200E9077B /* getbits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = getbits.cpp; sourceTree = "<group>"; };
+		04A1013F1644AE1200E9077B /* getbits.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = getbits.hpp; sourceTree = "<group>"; };
+		04A101401644AE1200E9077B /* global.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = global.cpp; sourceTree = "<group>"; };
+		04A101411644AE1200E9077B /* global.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = global.hpp; sourceTree = "<group>"; };
+		04A101421644AE1200E9077B /* headers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = headers.hpp; sourceTree = "<group>"; };
+		04A101431644AE1200E9077B /* isnt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isnt.cpp; sourceTree = "<group>"; };
+		04A101441644AE1200E9077B /* isnt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = isnt.hpp; sourceTree = "<group>"; };
+		04A101451644AE1200E9077B /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		04A101461644AE1200E9077B /* list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
+		04A101471644AE1200E9077B /* list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = list.hpp; sourceTree = "<group>"; };
+		04A101481644AE1200E9077B /* loclang.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = loclang.hpp; sourceTree = "<group>"; };
+		04A101491644AE1200E9077B /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
+		04A1014A1644AE1200E9077B /* log.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = log.hpp; sourceTree = "<group>"; };
+		04A1014B1644AE1200E9077B /* makefile.bcc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = makefile.bcc; sourceTree = "<group>"; };
+		04A1014C1644AE1200E9077B /* makefile.cygmin */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = makefile.cygmin; sourceTree = "<group>"; };
+		04A1014D1644AE1200E9077B /* makefile.dj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = makefile.dj; sourceTree = "<group>"; };
+		04A1014E1644AE1200E9077B /* makefile.dmc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = makefile.dmc; sourceTree = "<group>"; };
+		04A1014F1644AE1200E9077B /* makefile.unix */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = makefile.unix; sourceTree = "<group>"; };
+		04A101501644AE1200E9077B /* match.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = match.cpp; sourceTree = "<group>"; };
+		04A101511644AE1200E9077B /* match.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = match.hpp; sourceTree = "<group>"; };
+		04A101521644AE1200E9077B /* model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model.cpp; sourceTree = "<group>"; };
+		04A101531644AE1200E9077B /* model.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = model.hpp; sourceTree = "<group>"; };
+		04A101541644AE1200E9077B /* msc.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = msc.dep; sourceTree = "<group>"; };
+		04A101551644AE1200E9077B /* options.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = options.cpp; sourceTree = "<group>"; };
+		04A101561644AE1200E9077B /* options.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = options.hpp; sourceTree = "<group>"; };
+		04A101571644AE1200E9077B /* os.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = os.hpp; sourceTree = "<group>"; };
+		04A101581644AE1200E9077B /* os2ea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = os2ea.cpp; sourceTree = "<group>"; };
+		04A101591644AE1200E9077B /* pathfn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pathfn.cpp; sourceTree = "<group>"; };
+		04A1015A1644AE1200E9077B /* pathfn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pathfn.hpp; sourceTree = "<group>"; };
+		04A1015B1644AE1200E9077B /* rar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rar.cpp; sourceTree = "<group>"; };
+		04A1015C1644AE1200E9077B /* rar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rar.hpp; sourceTree = "<group>"; };
+		04A1015D1644AE1200E9077B /* rardefs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rardefs.hpp; sourceTree = "<group>"; };
+		04A1015E1644AE1200E9077B /* rarlang.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rarlang.hpp; sourceTree = "<group>"; };
+		04A1015F1644AE1200E9077B /* raros.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = raros.hpp; sourceTree = "<group>"; };
+		04A101601644AE1200E9077B /* rarpch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rarpch.cpp; sourceTree = "<group>"; };
+		04A101611644AE1200E9077B /* rartypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rartypes.hpp; sourceTree = "<group>"; };
+		04A101621644AE1200E9077B /* rarvm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rarvm.cpp; sourceTree = "<group>"; };
+		04A101631644AE1200E9077B /* rarvm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rarvm.hpp; sourceTree = "<group>"; };
+		04A101641644AE1200E9077B /* rarvmtbl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rarvmtbl.cpp; sourceTree = "<group>"; };
+		04A101651644AE1200E9077B /* rawread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rawread.cpp; sourceTree = "<group>"; };
+		04A101661644AE1200E9077B /* rawread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rawread.hpp; sourceTree = "<group>"; };
+		04A101671644AE1200E9077B /* rdwrfn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rdwrfn.cpp; sourceTree = "<group>"; };
+		04A101681644AE1200E9077B /* rdwrfn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rdwrfn.hpp; sourceTree = "<group>"; };
+		04A101691644AE1200E9077B /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		04A1016A1644AE1200E9077B /* recvol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recvol.cpp; sourceTree = "<group>"; };
+		04A1016B1644AE1200E9077B /* recvol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = recvol.hpp; sourceTree = "<group>"; };
+		04A1016C1644AE1200E9077B /* resource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = resource.cpp; sourceTree = "<group>"; };
+		04A1016D1644AE1200E9077B /* resource.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = resource.hpp; sourceTree = "<group>"; };
+		04A1016E1644AE1200E9077B /* rijndael.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rijndael.cpp; sourceTree = "<group>"; };
+		04A1016F1644AE1200E9077B /* rijndael.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rijndael.hpp; sourceTree = "<group>"; };
+		04A101701644AE1200E9077B /* rs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rs.cpp; sourceTree = "<group>"; };
+		04A101711644AE1200E9077B /* rs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rs.hpp; sourceTree = "<group>"; };
+		04A101721644AE1200E9077B /* savepos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = savepos.cpp; sourceTree = "<group>"; };
+		04A101731644AE1200E9077B /* savepos.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = savepos.hpp; sourceTree = "<group>"; };
+		04A101741644AE1200E9077B /* scantree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scantree.cpp; sourceTree = "<group>"; };
+		04A101751644AE1200E9077B /* scantree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scantree.hpp; sourceTree = "<group>"; };
+		04A101761644AE1200E9077B /* sha1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha1.cpp; sourceTree = "<group>"; };
+		04A101771644AE1200E9077B /* sha1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sha1.hpp; sourceTree = "<group>"; };
+		04A101781644AE1200E9077B /* smallfn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = smallfn.cpp; sourceTree = "<group>"; };
+		04A101791644AE1200E9077B /* smallfn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = smallfn.hpp; sourceTree = "<group>"; };
+		04A1017A1644AE1200E9077B /* strfn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = strfn.cpp; sourceTree = "<group>"; };
+		04A1017B1644AE1200E9077B /* strfn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = strfn.hpp; sourceTree = "<group>"; };
+		04A1017C1644AE1200E9077B /* strlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = strlist.cpp; sourceTree = "<group>"; };
+		04A1017D1644AE1200E9077B /* strlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = strlist.hpp; sourceTree = "<group>"; };
+		04A1017E1644AE1200E9077B /* suballoc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = suballoc.cpp; sourceTree = "<group>"; };
+		04A1017F1644AE1200E9077B /* suballoc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = suballoc.hpp; sourceTree = "<group>"; };
+		04A101801644AE1200E9077B /* system.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = system.cpp; sourceTree = "<group>"; };
+		04A101811644AE1200E9077B /* system.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = system.hpp; sourceTree = "<group>"; };
+		04A101821644AE1200E9077B /* timefn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timefn.cpp; sourceTree = "<group>"; };
+		04A101831644AE1200E9077B /* timefn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = timefn.hpp; sourceTree = "<group>"; };
+		04A101841644AE1200E9077B /* ulinks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ulinks.cpp; sourceTree = "<group>"; };
+		04A101851644AE1200E9077B /* ulinks.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ulinks.hpp; sourceTree = "<group>"; };
+		04A101861644AE1200E9077B /* unicode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unicode.cpp; sourceTree = "<group>"; };
+		04A101871644AE1200E9077B /* unicode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = unicode.hpp; sourceTree = "<group>"; };
+		04A101881644AE1200E9077B /* unios2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unios2.cpp; sourceTree = "<group>"; };
+		04A101891644AE1200E9077B /* unpack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unpack.cpp; sourceTree = "<group>"; };
+		04A1018A1644AE1200E9077B /* unpack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = unpack.hpp; sourceTree = "<group>"; };
+		04A1018B1644AE1200E9077B /* unpack15.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unpack15.cpp; sourceTree = "<group>"; };
+		04A1018C1644AE1200E9077B /* unpack20.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unpack20.cpp; sourceTree = "<group>"; };
+		04A1018D1644AE1200E9077B /* UnRAR.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UnRAR.vcproj; sourceTree = "<group>"; };
+		04A1018E1644AE1200E9077B /* UnRARDll.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UnRARDll.vcproj; sourceTree = "<group>"; };
+		04A1018F1644AE1200E9077B /* uowners.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uowners.cpp; sourceTree = "<group>"; };
+		04A101901644AE1200E9077B /* version.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = version.hpp; sourceTree = "<group>"; };
+		04A101911644AE1200E9077B /* volume.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = volume.cpp; sourceTree = "<group>"; };
+		04A101921644AE1200E9077B /* volume.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = volume.hpp; sourceTree = "<group>"; };
+		04A101931644AE1200E9077B /* win32acl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = win32acl.cpp; sourceTree = "<group>"; };
+		04A101941644AE1200E9077B /* win32stm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = win32stm.cpp; sourceTree = "<group>"; };
+		04A101951644AE1200E9077B /* Unrar4iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unrar4iOS.h; sourceTree = "<group>"; };
+		04A101961644AE1200E9077B /* Unrar4iOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Unrar4iOS.mm; sourceTree = "<group>"; };
+		04A101971644AE1200E9077B /* Unrar4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Unrar4iOS.xcodeproj; sourceTree = "<group>"; };
+		04A1019A1644AE1200E9077B /* Unrar4iOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unrar4iOS_Prefix.pch; sourceTree = "<group>"; };
+		04A1019C1644AE1200E9077B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		04A1019E1644AE1200E9077B /* UnrarExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnrarExampleAppDelegate.h; sourceTree = "<group>"; };
+		04A1019F1644AE1200E9077B /* UnrarExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnrarExampleAppDelegate.m; sourceTree = "<group>"; };
+		04A101A01644AE1200E9077B /* UnrarExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnrarExampleViewController.h; sourceTree = "<group>"; };
+		04A101A11644AE1200E9077B /* UnrarExampleViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnrarExampleViewController.mm; sourceTree = "<group>"; };
+		04A101A31644AE1200E9077B /* Unrar4iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Unrar4iOS.framework; sourceTree = "<group>"; };
+		04A101A41644AE1200E9077B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A101A51644AE1200E9077B /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		04A101A61644AE1200E9077B /* not_protected.cbr */ = {isa = PBXFileReference; lastKnownFileType = file; path = not_protected.cbr; sourceTree = "<group>"; };
+		04A101A71644AE1200E9077B /* protected.cbr */ = {isa = PBXFileReference; lastKnownFileType = file; path = protected.cbr; sourceTree = "<group>"; };
+		04A101A81644AE1200E9077B /* UnrarExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UnrarExample-Info.plist"; sourceTree = "<group>"; };
+		04A101A91644AE1200E9077B /* UnrarExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = UnrarExample.xcodeproj; sourceTree = "<group>"; };
+		04A101AC1644AE1200E9077B /* UnrarExample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnrarExample_Prefix.pch; sourceTree = "<group>"; };
+		04A101AD1644AE1200E9077B /* UnrarExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnrarExampleViewController.xib; sourceTree = "<group>"; };
 		04A82FDB1623900F00FAE668 /* ExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesViewController.h; sourceTree = "<group>"; };
 		04A82FDC1623900F00FAE668 /* ExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesViewController.m; sourceTree = "<group>"; };
 		04A82FDD1623900F00FAE668 /* ImageExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageExampleViewController.h; sourceTree = "<group>"; };
@@ -701,6 +780,7 @@
 				04B84CD81621C19500CF0A46 /* libz.1.2.3.dylib in Frameworks */,
 				04B84CD91621C19500CF0A46 /* MobileCoreServices.framework in Frameworks */,
 				04B84CDA1621C19500CF0A46 /* SystemConfiguration.framework in Frameworks */,
+				04A102041644AE1300E9077B /* Unrar4iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -802,15 +882,6 @@
 				0495C0FC163B4AC100083A9E /* Z7.1.jpg */,
 				0495C0FD163B4AC100083A9E /* Z8.1.jpg */,
 				0495C0FE163B4AC100083A9E /* 藏地密码1 */,
-				0495C107163B4AC100083A9E /* 藏地密码10（神圣大结局） */,
-				0495C113163B4AC100083A9E /* 藏地密码2 */,
-				0495C11C163B4AC200083A9E /* 藏地密码3 */,
-				0495C126163B4AC200083A9E /* 藏地密码4 */,
-				0495C130163B4AC200083A9E /* 藏地密码5 */,
-				0495C13A163B4AC200083A9E /* 藏地密码6 */,
-				0495C143163B4AC200083A9E /* 藏地密码7 */,
-				0495C15D163B4AC200083A9E /* 藏地密码8 */,
-				0495C167163B4AC200083A9E /* 藏地密码9 */,
 			);
 			path = books;
 			sourceTree = "<group>";
@@ -828,164 +899,6 @@
 				0495C106163B4AC100083A9E /* Z1.jpg */,
 			);
 			path = "藏地密码1";
-			sourceTree = "<group>";
-		};
-		0495C107163B4AC100083A9E /* 藏地密码10（神圣大结局） */ = {
-			isa = PBXGroup;
-			children = (
-				0495C108163B4AC100083A9E /* 000001 　　第七十章万狼之王紫麒麟 .txt */,
-				0495C109163B4AC100083A9E /* 000002 　　第七十一章狼之禁地 .txt */,
-				0495C10A163B4AC100083A9E /* 000003 　　第七十二章众生之门 .txt */,
-				0495C10B163B4AC100083A9E /* 000004 　　第七十三章浮生之河 .txt */,
-				0495C10C163B4AC100083A9E /* 000005 　　第七十四章欢迎来到帕巴拉！ .txt */,
-				0495C10D163B4AC100083A9E /* 000006 　　第七十五章西藏众神 .txt */,
-				0495C10E163B4AC100083A9E /* 000007 　　第七十六章西藏万佛阁 .txt */,
-				0495C10F163B4AC100083A9E /* 000008 　　第七十七章抵达神庙核心 .txt */,
-				0495C110163B4AC100083A9E /* 000009 　　第八十章千年前的故事 .txt */,
-				0495C111163B4AC100083A9E /* 000010 　　第八十一章以一张照片结束 .txt */,
-				0495C112163B4AC100083A9E /* Z10.jpg */,
-			);
-			path = "藏地密码10（神圣大结局）";
-			sourceTree = "<group>";
-		};
-		0495C113163B4AC100083A9E /* 藏地密码2 */ = {
-			isa = PBXGroup;
-			children = (
-				0495C114163B4AC100083A9E /* 000001 　　第八章 出发！亚马逊丛林！ .txt */,
-				0495C115163B4AC200083A9E /* 000002 　　藏地密码2 第九章 丛林危机 .txt */,
-				0495C116163B4AC200083A9E /* 000003 　　藏地密码2 第十章 深陷原始部落库库尔族 .txt */,
-				0495C117163B4AC200083A9E /* 000004 　　藏地密码2 第十一章 叹息丛林：探险家的坟墓 .txt */,
-				0495C118163B4AC200083A9E /* 000005 　　藏地密码2 第十二章 洪荒：上帝之手 .txt */,
-				0495C119163B4AC200083A9E /* 000006 　　藏地密码2 第十三章 我们被食人族绑架了！ .txt */,
-				0495C11A163B4AC200083A9E /* 000007 　　藏地密码2 第十四章 玛雅圣城 .txt */,
-				0495C11B163B4AC200083A9E /* Z2.jpg */,
-			);
-			path = "藏地密码2";
-			sourceTree = "<group>";
-		};
-		0495C11C163B4AC200083A9E /* 藏地密码3 */ = {
-			isa = PBXGroup;
-			children = (
-				0495C11D163B4AC200083A9E /* 000001 　　第十五章 玛雅迷宫 .txt */,
-				0495C11E163B4AC200083A9E /* 000002 　　藏地密码3 第十六章 水火地狱 .txt */,
-				0495C11F163B4AC200083A9E /* 000003 　　藏地密码3 第十七章 血池 .txt */,
-				0495C120163B4AC200083A9E /* 000004 　　藏地密码3 第十八章 回到西藏 .txt */,
-				0495C121163B4AC200083A9E /* 000005 　　藏地密码3 第十九章 玛雅：华夏文明的美洲变种 .txt */,
-				0495C122163B4AC200083A9E /* 000006 　　藏地密码3 第二十章 西藏墨脱：最后的秘境 .txt */,
-				0495C123163B4AC200083A9E /* 000007 　　藏地密码3 第二十一章 生命之门 .txt */,
-				0495C124163B4AC200083A9E /* 000008 　　藏地密码3 第二十二章 地狱之门 .txt */,
-				0495C125163B4AC200083A9E /* Z3.jpg */,
-			);
-			path = "藏地密码3";
-			sourceTree = "<group>";
-		};
-		0495C126163B4AC200083A9E /* 藏地密码4 */ = {
-			isa = PBXGroup;
-			children = (
-				0495C127163B4AC200083A9E /* 000001 　　第二十三章 高原雪狼 .txt */,
-				0495C128163B4AC200083A9E /* 000002 　　藏地密码4 第二十四章 倒悬空寺 .txt */,
-				0495C129163B4AC200083A9E /* 000003 　　藏地密码4 第二十五章 巨门之后 .txt */,
-				0495C12A163B4AC200083A9E /* 000004 　　藏地密码4 第二十六章 巨佛内部 .txt */,
-				0495C12B163B4AC200083A9E /* 000005 　　藏地密码4 第二十七章 终极血池 .txt */,
-				0495C12C163B4AC200083A9E /* 000006 　　藏地密码4 第二十八章 西藏古格 .txt */,
-				0495C12D163B4AC200083A9E /* 000007 　　藏地密码4 第二十九章 千年一战 .txt */,
-				0495C12E163B4AC200083A9E /* 000008 　　藏地密码4 第三十章 西藏密教 .txt */,
-				0495C12F163B4AC200083A9E /* Z4.jpg */,
-			);
-			path = "藏地密码4";
-			sourceTree = "<group>";
-		};
-		0495C130163B4AC200083A9E /* 藏地密码5 */ = {
-			isa = PBXGroup;
-			children = (
-				0495C131163B4AC200083A9E /* 000001 　　第三十一章 雪山仆从 .txt */,
-				0495C132163B4AC200083A9E /* 000002 　　藏地密码5 第三十二章 紫麒麟猜想 .txt */,
-				0495C133163B4AC200083A9E /* 000003 　　藏地密码5 第三十三章 绝没见过的狼 .txt */,
-				0495C134163B4AC200083A9E /* 000004 　　藏地密码5 第三十四章 水晶宫 .txt */,
-				0495C135163B4AC200083A9E /* 000005 　　藏地密码5 第三十五章 极南庙 .txt */,
-				0495C136163B4AC200083A9E /* 000006 　　藏地密码5 第三十六章 死亡西风带 .txt */,
-				0495C137163B4AC200083A9E /* 000007 　　藏地密码5 第三十七章 唐涛的日记 .txt */,
-				0495C138163B4AC200083A9E /* 000008 　　藏地密码5 第三十八章 人生的宿命 .txt */,
-				0495C139163B4AC200083A9E /* Z5.jpg */,
-			);
-			path = "藏地密码5";
-			sourceTree = "<group>";
-		};
-		0495C13A163B4AC200083A9E /* 藏地密码6 */ = {
-			isa = PBXGroup;
-			children = (
-				0495C13B163B4AC200083A9E /* 000001 　　第三十九章 希特勒秘闻 .txt */,
-				0495C13C163B4AC200083A9E /* 000002 　　第四十章 德军进藏秘密史料 .txt */,
-				0495C13D163B4AC200083A9E /* 000003 　　第四十一章 德军进藏秘密地图 .txt */,
-				0495C13E163B4AC200083A9E /* 000004 　　第四十二章 希特勒第一次派人进藏之谜 .txt */,
-				0495C13F163B4AC200083A9E /* 000005 　　第四十三章 希特勒第二次派人进藏之谜 .txt */,
-				0495C140163B4AC200083A9E /* 000006 　　第四十四章 香巴拉真身之谜 .txt */,
-				0495C141163B4AC200083A9E /* 000007 　　第四十五章 冥河：西藏最神秘的河 .txt */,
-				0495C142163B4AC200083A9E /* Z6.jpg */,
-			);
-			path = "藏地密码6";
-			sourceTree = "<group>";
-		};
-		0495C143163B4AC200083A9E /* 藏地密码7 */ = {
-			isa = PBXGroup;
-			children = (
-				0495C144163B4AC200083A9E /* 000001 　　第四十六章 大天轮经：藏密最高法典 .txt */,
-				0495C145163B4AC200083A9E /* 000002 　　第一章 穿行地下河 .txt */,
-				0495C146163B4AC200083A9E /* 000003 　　第二章 涨水 .txt */,
-				0495C147163B4AC200083A9E /* 000004 　　第三章 第一个二十四小时 .txt */,
-				0495C148163B4AC200083A9E /* 000005 　　第四章 死神到访 .txt */,
-				0495C149163B4AC200083A9E /* 000006 　　第一章 激励与地底瀑步 .txt */,
-				0495C14A163B4AC200083A9E /* 000007 　　第二章 变故突生 .txt */,
-				0495C14B163B4AC200083A9E /* 000008 　　第三章 大昭寺前的男子 .txt */,
-				0495C14C163B4AC200083A9E /* 000009 　　第四章 浪口余生 .txt */,
-				0495C14D163B4AC200083A9E /* 000010 　　第一章 .txt */,
-				0495C14E163B4AC200083A9E /* 000011 　　第二章 .txt */,
-				0495C14F163B4AC200083A9E /* 000012 　　第三章 第五次涌水 .txt */,
-				0495C150163B4AC200083A9E /* 000013 　　第四章 没有光的世界 .txt */,
-				0495C151163B4AC200083A9E /* 000014 　　第一章 .txt */,
-				0495C152163B4AC200083A9E /* 000015 　　第二章 .txt */,
-				0495C153163B4AC200083A9E /* 000016 　　第三章 应战潮汐 .txt */,
-				0495C154163B4AC200083A9E /* 000017 　　第四章 巨浪的考验 .txt */,
-				0495C155163B4AC200083A9E /* 000018 　　第五章 .txt */,
-				0495C156163B4AC200083A9E /* 000019 　　第一章 .txt */,
-				0495C157163B4AC200083A9E /* 000020 　　第二章 最大的恐惧 .txt */,
-				0495C158163B4AC200083A9E /* 000021 　　第三章 地底星光 .txt */,
-				0495C159163B4AC200083A9E /* 000022 　　第四章 .txt */,
-				0495C15A163B4AC200083A9E /* 000023 　　第五章 .txt */,
-				0495C15B163B4AC200083A9E /* 000024 　　第六章 信仰 .txt */,
-				0495C15C163B4AC200083A9E /* Z7.jpg */,
-			);
-			path = "藏地密码7";
-			sourceTree = "<group>";
-		};
-		0495C15D163B4AC200083A9E /* 藏地密码8 */ = {
-			isa = PBXGroup;
-			children = (
-				0495C15E163B4AC200083A9E /* 000001 　　第五十四章 喜马拉雅雪人之谜 .txt */,
-				0495C15F163B4AC200083A9E /* 000002 　　第五十五章 喜马拉雅雪人，现在在哪儿？ .txt */,
-				0495C160163B4AC200083A9E /* 000003 　　第五十六章 蛊毒患者 .txt */,
-				0495C161163B4AC200083A9E /* 000004 　　第五十七章 穆族遗迹 .txt */,
-				0495C162163B4AC200083A9E /* 000005 　　第五十八章 奇迹之城雀母 .txt */,
-				0495C163163B4AC200083A9E /* 000006 　　第五十九章 神秘王国雅加　　 .txt */,
-				0495C164163B4AC200083A9E /* 000007 　　第六十章 寻找回归之路的密修者 .txt */,
-				0495C165163B4AC200083A9E /* 000008 　　第六十一章胡杨队长之死 .txt */,
-				0495C166163B4AC200083A9E /* Z8.jpg */,
-			);
-			path = "藏地密码8";
-			sourceTree = "<group>";
-		};
-		0495C167163B4AC200083A9E /* 藏地密码9 */ = {
-			isa = PBXGroup;
-			children = (
-				0495C168163B4AC200083A9E /* 000014 　　《藏地密码9》第六十二章 灵魂转世之谜 .txt */,
-				0495C169163B4AC200083A9E /* 000015 　　第六十六章（1）　张立托母 .txt */,
-				0495C16A163B4AC200083A9E /* 000016 　　第六十五章人狼大战 .txt */,
-				0495C16B163B4AC200083A9E /* 000017 　　第六十六章硬汉巴桑之死 .txt */,
-				0495C16C163B4AC200083A9E /* 000018 　　第六十七章再遇灰狼三兄弟 .txt */,
-				0495C16D163B4AC200083A9E /* Thumbs.db */,
-				0495C16E163B4AC200083A9E /* Z9.jpg */,
-			);
-			path = "藏地密码9";
 			sourceTree = "<group>";
 		};
 		0495C172163B4AC200083A9E /* resources */ = {
@@ -1118,6 +1031,245 @@
 				0495C1D7163B4AC200083A9E /* CTidy.m */,
 			);
 			path = Tidy;
+			sourceTree = "<group>";
+		};
+		04A100F7164350D500E9077B /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				04A100F8164350D500E9077B /* minizip */,
+				04A10102164350D500E9077B /* ZipArchive.h */,
+				04A10103164350D500E9077B /* ZipArchive.mm */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		04A100F8164350D500E9077B /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				04A100F9164350D500E9077B /* crypt.h */,
+				04A100FA164350D500E9077B /* ioapi.c */,
+				04A100FB164350D500E9077B /* ioapi.h */,
+				04A100FC164350D500E9077B /* mztools.c */,
+				04A100FD164350D500E9077B /* mztools.h */,
+				04A100FE164350D500E9077B /* unzip.c */,
+				04A100FF164350D500E9077B /* unzip.h */,
+				04A10100164350D500E9077B /* zip.c */,
+				04A10101164350D500E9077B /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		04A1010E1644AE1200E9077B /* ararog-Unrar4iOS-e282da6 */ = {
+			isa = PBXGroup;
+			children = (
+				04A1010F1644AE1200E9077B /* .gitignore */,
+				04A101101644AE1200E9077B /* README */,
+				04A101111644AE1200E9077B /* Unrar4iOS */,
+				04A1019B1644AE1200E9077B /* UnrarExample */,
+			);
+			path = "ararog-Unrar4iOS-e282da6";
+			sourceTree = "<group>";
+		};
+		04A101111644AE1200E9077B /* Unrar4iOS */ = {
+			isa = PBXGroup;
+			children = (
+				04A101121644AE1200E9077B /* .gitignore */,
+				04A101131644AE1200E9077B /* Framework.plist */,
+				04A101141644AE1200E9077B /* RARExtractException.h */,
+				04A101151644AE1200E9077B /* RARExtractException.m */,
+				04A101161644AE1200E9077B /* unrar */,
+				04A101951644AE1200E9077B /* Unrar4iOS.h */,
+				04A101961644AE1200E9077B /* Unrar4iOS.mm */,
+				04A101971644AE1200E9077B /* Unrar4iOS.xcodeproj */,
+				04A1019A1644AE1200E9077B /* Unrar4iOS_Prefix.pch */,
+			);
+			path = Unrar4iOS;
+			sourceTree = "<group>";
+		};
+		04A101161644AE1200E9077B /* unrar */ = {
+			isa = PBXGroup;
+			children = (
+				04A101171644AE1200E9077B /* arccmt.cpp */,
+				04A101181644AE1200E9077B /* archive.cpp */,
+				04A101191644AE1200E9077B /* archive.hpp */,
+				04A1011A1644AE1200E9077B /* arcread.cpp */,
+				04A1011B1644AE1200E9077B /* array.hpp */,
+				04A1011C1644AE1200E9077B /* beosea.cpp */,
+				04A1011D1644AE1200E9077B /* cmddata.cpp */,
+				04A1011E1644AE1200E9077B /* cmddata.hpp */,
+				04A1011F1644AE1200E9077B /* coder.cpp */,
+				04A101201644AE1200E9077B /* coder.hpp */,
+				04A101211644AE1200E9077B /* compress.hpp */,
+				04A101221644AE1200E9077B /* consio.cpp */,
+				04A101231644AE1200E9077B /* consio.hpp */,
+				04A101241644AE1200E9077B /* crc.cpp */,
+				04A101251644AE1200E9077B /* crc.hpp */,
+				04A101261644AE1200E9077B /* crypt.cpp */,
+				04A101271644AE1200E9077B /* crypt.hpp */,
+				04A101281644AE1200E9077B /* dll.cpp */,
+				04A101291644AE1200E9077B /* dll.def */,
+				04A1012A1644AE1200E9077B /* dll.hpp */,
+				04A1012B1644AE1200E9077B /* dll.rc */,
+				04A1012C1644AE1200E9077B /* encname.cpp */,
+				04A1012D1644AE1200E9077B /* encname.hpp */,
+				04A1012E1644AE1200E9077B /* errhnd.cpp */,
+				04A1012F1644AE1200E9077B /* errhnd.hpp */,
+				04A101301644AE1200E9077B /* extinfo.cpp */,
+				04A101311644AE1200E9077B /* extinfo.hpp */,
+				04A101321644AE1200E9077B /* extract.cpp */,
+				04A101331644AE1200E9077B /* extract.hpp */,
+				04A101341644AE1200E9077B /* filcreat.cpp */,
+				04A101351644AE1200E9077B /* filcreat.hpp */,
+				04A101361644AE1200E9077B /* file.cpp */,
+				04A101371644AE1200E9077B /* file.hpp */,
+				04A101381644AE1200E9077B /* filefn.cpp */,
+				04A101391644AE1200E9077B /* filefn.hpp */,
+				04A1013A1644AE1200E9077B /* filestr.cpp */,
+				04A1013B1644AE1200E9077B /* filestr.hpp */,
+				04A1013C1644AE1200E9077B /* find.cpp */,
+				04A1013D1644AE1200E9077B /* find.hpp */,
+				04A1013E1644AE1200E9077B /* getbits.cpp */,
+				04A1013F1644AE1200E9077B /* getbits.hpp */,
+				04A101401644AE1200E9077B /* global.cpp */,
+				04A101411644AE1200E9077B /* global.hpp */,
+				04A101421644AE1200E9077B /* headers.hpp */,
+				04A101431644AE1200E9077B /* isnt.cpp */,
+				04A101441644AE1200E9077B /* isnt.hpp */,
+				04A101451644AE1200E9077B /* license.txt */,
+				04A101461644AE1200E9077B /* list.cpp */,
+				04A101471644AE1200E9077B /* list.hpp */,
+				04A101481644AE1200E9077B /* loclang.hpp */,
+				04A101491644AE1200E9077B /* log.cpp */,
+				04A1014A1644AE1200E9077B /* log.hpp */,
+				04A1014B1644AE1200E9077B /* makefile.bcc */,
+				04A1014C1644AE1200E9077B /* makefile.cygmin */,
+				04A1014D1644AE1200E9077B /* makefile.dj */,
+				04A1014E1644AE1200E9077B /* makefile.dmc */,
+				04A1014F1644AE1200E9077B /* makefile.unix */,
+				04A101501644AE1200E9077B /* match.cpp */,
+				04A101511644AE1200E9077B /* match.hpp */,
+				04A101521644AE1200E9077B /* model.cpp */,
+				04A101531644AE1200E9077B /* model.hpp */,
+				04A101541644AE1200E9077B /* msc.dep */,
+				04A101551644AE1200E9077B /* options.cpp */,
+				04A101561644AE1200E9077B /* options.hpp */,
+				04A101571644AE1200E9077B /* os.hpp */,
+				04A101581644AE1200E9077B /* os2ea.cpp */,
+				04A101591644AE1200E9077B /* pathfn.cpp */,
+				04A1015A1644AE1200E9077B /* pathfn.hpp */,
+				04A1015B1644AE1200E9077B /* rar.cpp */,
+				04A1015C1644AE1200E9077B /* rar.hpp */,
+				04A1015D1644AE1200E9077B /* rardefs.hpp */,
+				04A1015E1644AE1200E9077B /* rarlang.hpp */,
+				04A1015F1644AE1200E9077B /* raros.hpp */,
+				04A101601644AE1200E9077B /* rarpch.cpp */,
+				04A101611644AE1200E9077B /* rartypes.hpp */,
+				04A101621644AE1200E9077B /* rarvm.cpp */,
+				04A101631644AE1200E9077B /* rarvm.hpp */,
+				04A101641644AE1200E9077B /* rarvmtbl.cpp */,
+				04A101651644AE1200E9077B /* rawread.cpp */,
+				04A101661644AE1200E9077B /* rawread.hpp */,
+				04A101671644AE1200E9077B /* rdwrfn.cpp */,
+				04A101681644AE1200E9077B /* rdwrfn.hpp */,
+				04A101691644AE1200E9077B /* readme.txt */,
+				04A1016A1644AE1200E9077B /* recvol.cpp */,
+				04A1016B1644AE1200E9077B /* recvol.hpp */,
+				04A1016C1644AE1200E9077B /* resource.cpp */,
+				04A1016D1644AE1200E9077B /* resource.hpp */,
+				04A1016E1644AE1200E9077B /* rijndael.cpp */,
+				04A1016F1644AE1200E9077B /* rijndael.hpp */,
+				04A101701644AE1200E9077B /* rs.cpp */,
+				04A101711644AE1200E9077B /* rs.hpp */,
+				04A101721644AE1200E9077B /* savepos.cpp */,
+				04A101731644AE1200E9077B /* savepos.hpp */,
+				04A101741644AE1200E9077B /* scantree.cpp */,
+				04A101751644AE1200E9077B /* scantree.hpp */,
+				04A101761644AE1200E9077B /* sha1.cpp */,
+				04A101771644AE1200E9077B /* sha1.hpp */,
+				04A101781644AE1200E9077B /* smallfn.cpp */,
+				04A101791644AE1200E9077B /* smallfn.hpp */,
+				04A1017A1644AE1200E9077B /* strfn.cpp */,
+				04A1017B1644AE1200E9077B /* strfn.hpp */,
+				04A1017C1644AE1200E9077B /* strlist.cpp */,
+				04A1017D1644AE1200E9077B /* strlist.hpp */,
+				04A1017E1644AE1200E9077B /* suballoc.cpp */,
+				04A1017F1644AE1200E9077B /* suballoc.hpp */,
+				04A101801644AE1200E9077B /* system.cpp */,
+				04A101811644AE1200E9077B /* system.hpp */,
+				04A101821644AE1200E9077B /* timefn.cpp */,
+				04A101831644AE1200E9077B /* timefn.hpp */,
+				04A101841644AE1200E9077B /* ulinks.cpp */,
+				04A101851644AE1200E9077B /* ulinks.hpp */,
+				04A101861644AE1200E9077B /* unicode.cpp */,
+				04A101871644AE1200E9077B /* unicode.hpp */,
+				04A101881644AE1200E9077B /* unios2.cpp */,
+				04A101891644AE1200E9077B /* unpack.cpp */,
+				04A1018A1644AE1200E9077B /* unpack.hpp */,
+				04A1018B1644AE1200E9077B /* unpack15.cpp */,
+				04A1018C1644AE1200E9077B /* unpack20.cpp */,
+				04A1018D1644AE1200E9077B /* UnRAR.vcproj */,
+				04A1018E1644AE1200E9077B /* UnRARDll.vcproj */,
+				04A1018F1644AE1200E9077B /* uowners.cpp */,
+				04A101901644AE1200E9077B /* version.hpp */,
+				04A101911644AE1200E9077B /* volume.cpp */,
+				04A101921644AE1200E9077B /* volume.hpp */,
+				04A101931644AE1200E9077B /* win32acl.cpp */,
+				04A101941644AE1200E9077B /* win32stm.cpp */,
+			);
+			path = unrar;
+			sourceTree = "<group>";
+		};
+		04A101981644AE1200E9077B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A1020D1644AE1300E9077B /* libUnrar4iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A1019B1644AE1200E9077B /* UnrarExample */ = {
+			isa = PBXGroup;
+			children = (
+				04A1019C1644AE1200E9077B /* .gitignore */,
+				04A1019D1644AE1200E9077B /* Classes */,
+				04A101A21644AE1200E9077B /* Frameworks */,
+				04A101A41644AE1200E9077B /* main.m */,
+				04A101A51644AE1200E9077B /* MainWindow.xib */,
+				04A101A61644AE1200E9077B /* not_protected.cbr */,
+				04A101A71644AE1200E9077B /* protected.cbr */,
+				04A101A81644AE1200E9077B /* UnrarExample-Info.plist */,
+				04A101A91644AE1200E9077B /* UnrarExample.xcodeproj */,
+				04A101AC1644AE1200E9077B /* UnrarExample_Prefix.pch */,
+				04A101AD1644AE1200E9077B /* UnrarExampleViewController.xib */,
+			);
+			path = UnrarExample;
+			sourceTree = "<group>";
+		};
+		04A1019D1644AE1200E9077B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04A1019E1644AE1200E9077B /* UnrarExampleAppDelegate.h */,
+				04A1019F1644AE1200E9077B /* UnrarExampleAppDelegate.m */,
+				04A101A01644AE1200E9077B /* UnrarExampleViewController.h */,
+				04A101A11644AE1200E9077B /* UnrarExampleViewController.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		04A101A21644AE1200E9077B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A101A31644AE1200E9077B /* Unrar4iOS.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		04A101AA1644AE1200E9077B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A102101644AE1300E9077B /* UnrarExample.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		04A82FD91623900F00FAE668 /* PageView */ = {
@@ -1434,6 +1586,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				04A1010E1644AE1200E9077B /* ararog-Unrar4iOS-e282da6 */,
+				04A100F7164350D500E9077B /* ZipArchive */,
 				04B84D1D1621C4D900CF0A46 /* Models */,
 				04B84CFA1621C38A00CF0A46 /* Images */,
 				04B84CF51621C32100CF0A46 /* Sounds */,
@@ -1533,12 +1687,39 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04A101981644AE1200E9077B /* Products */;
+					ProjectRef = 04A101971644AE1200E9077B /* Unrar4iOS.xcodeproj */;
+				},
+				{
+					ProductGroup = 04A101AA1644AE1200E9077B /* Products */;
+					ProjectRef = 04A101A91644AE1200E9077B /* UnrarExample.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* MyLauncher */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04A1020D1644AE1300E9077B /* libUnrar4iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUnrar4iOS.a;
+			remoteRef = 04A1020C1644AE1300E9077B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04A102101644AE1300E9077B /* UnrarExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UnrarExample.app;
+			remoteRef = 04A1020F1644AE1300E9077B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -1599,101 +1780,6 @@
 				0495C1FF163B4AC200083A9E /* 000006 　　藏地密码1 第六章 笔记之谜 .txt in Resources */,
 				0495C200163B4AC200083A9E /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt in Resources */,
 				0495C201163B4AC200083A9E /* Z1.jpg in Resources */,
-				0495C202163B4AC200083A9E /* 000001 　　第七十章万狼之王紫麒麟 .txt in Resources */,
-				0495C203163B4AC200083A9E /* 000002 　　第七十一章狼之禁地 .txt in Resources */,
-				0495C204163B4AC200083A9E /* 000003 　　第七十二章众生之门 .txt in Resources */,
-				0495C205163B4AC200083A9E /* 000004 　　第七十三章浮生之河 .txt in Resources */,
-				0495C206163B4AC200083A9E /* 000005 　　第七十四章欢迎来到帕巴拉！ .txt in Resources */,
-				0495C207163B4AC200083A9E /* 000006 　　第七十五章西藏众神 .txt in Resources */,
-				0495C208163B4AC200083A9E /* 000007 　　第七十六章西藏万佛阁 .txt in Resources */,
-				0495C209163B4AC200083A9E /* 000008 　　第七十七章抵达神庙核心 .txt in Resources */,
-				0495C20A163B4AC200083A9E /* 000009 　　第八十章千年前的故事 .txt in Resources */,
-				0495C20B163B4AC200083A9E /* 000010 　　第八十一章以一张照片结束 .txt in Resources */,
-				0495C20C163B4AC200083A9E /* Z10.jpg in Resources */,
-				0495C20D163B4AC200083A9E /* 000001 　　第八章 出发！亚马逊丛林！ .txt in Resources */,
-				0495C20E163B4AC200083A9E /* 000002 　　藏地密码2 第九章 丛林危机 .txt in Resources */,
-				0495C20F163B4AC200083A9E /* 000003 　　藏地密码2 第十章 深陷原始部落库库尔族 .txt in Resources */,
-				0495C210163B4AC200083A9E /* 000004 　　藏地密码2 第十一章 叹息丛林：探险家的坟墓 .txt in Resources */,
-				0495C211163B4AC200083A9E /* 000005 　　藏地密码2 第十二章 洪荒：上帝之手 .txt in Resources */,
-				0495C212163B4AC200083A9E /* 000006 　　藏地密码2 第十三章 我们被食人族绑架了！ .txt in Resources */,
-				0495C213163B4AC200083A9E /* 000007 　　藏地密码2 第十四章 玛雅圣城 .txt in Resources */,
-				0495C214163B4AC200083A9E /* Z2.jpg in Resources */,
-				0495C215163B4AC200083A9E /* 000001 　　第十五章 玛雅迷宫 .txt in Resources */,
-				0495C216163B4AC200083A9E /* 000002 　　藏地密码3 第十六章 水火地狱 .txt in Resources */,
-				0495C217163B4AC200083A9E /* 000003 　　藏地密码3 第十七章 血池 .txt in Resources */,
-				0495C218163B4AC200083A9E /* 000004 　　藏地密码3 第十八章 回到西藏 .txt in Resources */,
-				0495C219163B4AC200083A9E /* 000005 　　藏地密码3 第十九章 玛雅：华夏文明的美洲变种 .txt in Resources */,
-				0495C21A163B4AC200083A9E /* 000006 　　藏地密码3 第二十章 西藏墨脱：最后的秘境 .txt in Resources */,
-				0495C21B163B4AC200083A9E /* 000007 　　藏地密码3 第二十一章 生命之门 .txt in Resources */,
-				0495C21C163B4AC200083A9E /* 000008 　　藏地密码3 第二十二章 地狱之门 .txt in Resources */,
-				0495C21D163B4AC200083A9E /* Z3.jpg in Resources */,
-				0495C21E163B4AC200083A9E /* 000001 　　第二十三章 高原雪狼 .txt in Resources */,
-				0495C21F163B4AC200083A9E /* 000002 　　藏地密码4 第二十四章 倒悬空寺 .txt in Resources */,
-				0495C220163B4AC200083A9E /* 000003 　　藏地密码4 第二十五章 巨门之后 .txt in Resources */,
-				0495C221163B4AC200083A9E /* 000004 　　藏地密码4 第二十六章 巨佛内部 .txt in Resources */,
-				0495C222163B4AC200083A9E /* 000005 　　藏地密码4 第二十七章 终极血池 .txt in Resources */,
-				0495C223163B4AC200083A9E /* 000006 　　藏地密码4 第二十八章 西藏古格 .txt in Resources */,
-				0495C224163B4AC200083A9E /* 000007 　　藏地密码4 第二十九章 千年一战 .txt in Resources */,
-				0495C225163B4AC200083A9E /* 000008 　　藏地密码4 第三十章 西藏密教 .txt in Resources */,
-				0495C226163B4AC200083A9E /* Z4.jpg in Resources */,
-				0495C227163B4AC200083A9E /* 000001 　　第三十一章 雪山仆从 .txt in Resources */,
-				0495C228163B4AC200083A9E /* 000002 　　藏地密码5 第三十二章 紫麒麟猜想 .txt in Resources */,
-				0495C229163B4AC200083A9E /* 000003 　　藏地密码5 第三十三章 绝没见过的狼 .txt in Resources */,
-				0495C22A163B4AC200083A9E /* 000004 　　藏地密码5 第三十四章 水晶宫 .txt in Resources */,
-				0495C22B163B4AC200083A9E /* 000005 　　藏地密码5 第三十五章 极南庙 .txt in Resources */,
-				0495C22C163B4AC200083A9E /* 000006 　　藏地密码5 第三十六章 死亡西风带 .txt in Resources */,
-				0495C22D163B4AC200083A9E /* 000007 　　藏地密码5 第三十七章 唐涛的日记 .txt in Resources */,
-				0495C22E163B4AC200083A9E /* 000008 　　藏地密码5 第三十八章 人生的宿命 .txt in Resources */,
-				0495C22F163B4AC200083A9E /* Z5.jpg in Resources */,
-				0495C230163B4AC200083A9E /* 000001 　　第三十九章 希特勒秘闻 .txt in Resources */,
-				0495C231163B4AC200083A9E /* 000002 　　第四十章 德军进藏秘密史料 .txt in Resources */,
-				0495C232163B4AC200083A9E /* 000003 　　第四十一章 德军进藏秘密地图 .txt in Resources */,
-				0495C233163B4AC200083A9E /* 000004 　　第四十二章 希特勒第一次派人进藏之谜 .txt in Resources */,
-				0495C234163B4AC200083A9E /* 000005 　　第四十三章 希特勒第二次派人进藏之谜 .txt in Resources */,
-				0495C235163B4AC200083A9E /* 000006 　　第四十四章 香巴拉真身之谜 .txt in Resources */,
-				0495C236163B4AC200083A9E /* 000007 　　第四十五章 冥河：西藏最神秘的河 .txt in Resources */,
-				0495C237163B4AC200083A9E /* Z6.jpg in Resources */,
-				0495C238163B4AC200083A9E /* 000001 　　第四十六章 大天轮经：藏密最高法典 .txt in Resources */,
-				0495C239163B4AC200083A9E /* 000002 　　第一章 穿行地下河 .txt in Resources */,
-				0495C23A163B4AC200083A9E /* 000003 　　第二章 涨水 .txt in Resources */,
-				0495C23B163B4AC200083A9E /* 000004 　　第三章 第一个二十四小时 .txt in Resources */,
-				0495C23C163B4AC200083A9E /* 000005 　　第四章 死神到访 .txt in Resources */,
-				0495C23D163B4AC200083A9E /* 000006 　　第一章 激励与地底瀑步 .txt in Resources */,
-				0495C23E163B4AC200083A9E /* 000007 　　第二章 变故突生 .txt in Resources */,
-				0495C23F163B4AC200083A9E /* 000008 　　第三章 大昭寺前的男子 .txt in Resources */,
-				0495C240163B4AC200083A9E /* 000009 　　第四章 浪口余生 .txt in Resources */,
-				0495C241163B4AC200083A9E /* 000010 　　第一章 .txt in Resources */,
-				0495C242163B4AC200083A9E /* 000011 　　第二章 .txt in Resources */,
-				0495C243163B4AC200083A9E /* 000012 　　第三章 第五次涌水 .txt in Resources */,
-				0495C244163B4AC200083A9E /* 000013 　　第四章 没有光的世界 .txt in Resources */,
-				0495C245163B4AC200083A9E /* 000014 　　第一章 .txt in Resources */,
-				0495C246163B4AC200083A9E /* 000015 　　第二章 .txt in Resources */,
-				0495C247163B4AC200083A9E /* 000016 　　第三章 应战潮汐 .txt in Resources */,
-				0495C248163B4AC200083A9E /* 000017 　　第四章 巨浪的考验 .txt in Resources */,
-				0495C249163B4AC200083A9E /* 000018 　　第五章 .txt in Resources */,
-				0495C24A163B4AC200083A9E /* 000019 　　第一章 .txt in Resources */,
-				0495C24B163B4AC200083A9E /* 000020 　　第二章 最大的恐惧 .txt in Resources */,
-				0495C24C163B4AC200083A9E /* 000021 　　第三章 地底星光 .txt in Resources */,
-				0495C24D163B4AC200083A9E /* 000022 　　第四章 .txt in Resources */,
-				0495C24E163B4AC200083A9E /* 000023 　　第五章 .txt in Resources */,
-				0495C24F163B4AC200083A9E /* 000024 　　第六章 信仰 .txt in Resources */,
-				0495C250163B4AC200083A9E /* Z7.jpg in Resources */,
-				0495C251163B4AC200083A9E /* 000001 　　第五十四章 喜马拉雅雪人之谜 .txt in Resources */,
-				0495C252163B4AC200083A9E /* 000002 　　第五十五章 喜马拉雅雪人，现在在哪儿？ .txt in Resources */,
-				0495C253163B4AC200083A9E /* 000003 　　第五十六章 蛊毒患者 .txt in Resources */,
-				0495C254163B4AC200083A9E /* 000004 　　第五十七章 穆族遗迹 .txt in Resources */,
-				0495C255163B4AC200083A9E /* 000005 　　第五十八章 奇迹之城雀母 .txt in Resources */,
-				0495C256163B4AC200083A9E /* 000006 　　第五十九章 神秘王国雅加　　 .txt in Resources */,
-				0495C257163B4AC200083A9E /* 000007 　　第六十章 寻找回归之路的密修者 .txt in Resources */,
-				0495C258163B4AC200083A9E /* 000008 　　第六十一章胡杨队长之死 .txt in Resources */,
-				0495C259163B4AC200083A9E /* Z8.jpg in Resources */,
-				0495C25A163B4AC200083A9E /* 000014 　　《藏地密码9》第六十二章 灵魂转世之谜 .txt in Resources */,
-				0495C25B163B4AC200083A9E /* 000015 　　第六十六章（1）　张立托母 .txt in Resources */,
-				0495C25C163B4AC200083A9E /* 000016 　　第六十五章人狼大战 .txt in Resources */,
-				0495C25D163B4AC200083A9E /* 000017 　　第六十六章硬汉巴桑之死 .txt in Resources */,
-				0495C25E163B4AC200083A9E /* 000018 　　第六十七章再遇灰狼三兄弟 .txt in Resources */,
-				0495C25F163B4AC200083A9E /* Thumbs.db in Resources */,
-				0495C260163B4AC200083A9E /* Z9.jpg in Resources */,
 				0495C262163B4AC200083A9E /* background.jpg in Resources */,
 				0495C263163B4AC200083A9E /* bookmark.png in Resources */,
 				0495C264163B4AC200083A9E /* bookmark@2x.png in Resources */,
@@ -1716,6 +1802,28 @@
 				0495C276163B4AC200083A9E /* shelf_row.png in Resources */,
 				0495C277163B4AC200083A9E /* shelf_top.png in Resources */,
 				0495C282163B4AC200083A9E /* RJBookListViewController.xib in Resources */,
+				04A101B51644AE1300E9077B /* .gitignore in Resources */,
+				04A101B61644AE1300E9077B /* README in Resources */,
+				04A101B71644AE1300E9077B /* .gitignore in Resources */,
+				04A101B81644AE1300E9077B /* Framework.plist in Resources */,
+				04A101C41644AE1300E9077B /* dll.def in Resources */,
+				04A101C51644AE1300E9077B /* dll.rc in Resources */,
+				04A101D21644AE1300E9077B /* license.txt in Resources */,
+				04A101D51644AE1300E9077B /* makefile.bcc in Resources */,
+				04A101D61644AE1300E9077B /* makefile.cygmin in Resources */,
+				04A101D71644AE1300E9077B /* makefile.dj in Resources */,
+				04A101D81644AE1300E9077B /* makefile.dmc in Resources */,
+				04A101D91644AE1300E9077B /* makefile.unix in Resources */,
+				04A101DC1644AE1300E9077B /* msc.dep in Resources */,
+				04A101E61644AE1300E9077B /* readme.txt in Resources */,
+				04A101FA1644AE1300E9077B /* UnRAR.vcproj in Resources */,
+				04A101FB1644AE1300E9077B /* UnRARDll.vcproj in Resources */,
+				04A102011644AE1300E9077B /* .gitignore in Resources */,
+				04A102061644AE1300E9077B /* MainWindow.xib in Resources */,
+				04A102071644AE1300E9077B /* not_protected.cbr in Resources */,
+				04A102081644AE1300E9077B /* protected.cbr in Resources */,
+				04A102091644AE1300E9077B /* UnrarExample-Info.plist in Resources */,
+				04A1020A1644AE1300E9077B /* UnrarExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1821,6 +1929,74 @@
 				0495C297163B4AC200083A9E /* CXMLNode_PrivateExtensions.m in Sources */,
 				0495C298163B4AC200083A9E /* CXMLNode_XPathExtensions.m in Sources */,
 				0495C299163B4AC200083A9E /* CTidy.m in Sources */,
+				04A10104164350D500E9077B /* ioapi.c in Sources */,
+				04A10105164350D500E9077B /* mztools.c in Sources */,
+				04A10106164350D500E9077B /* unzip.c in Sources */,
+				04A10107164350D500E9077B /* zip.c in Sources */,
+				04A10108164350D500E9077B /* ZipArchive.mm in Sources */,
+				04A101B91644AE1300E9077B /* RARExtractException.m in Sources */,
+				04A101BA1644AE1300E9077B /* arccmt.cpp in Sources */,
+				04A101BB1644AE1300E9077B /* archive.cpp in Sources */,
+				04A101BC1644AE1300E9077B /* arcread.cpp in Sources */,
+				04A101BD1644AE1300E9077B /* beosea.cpp in Sources */,
+				04A101BE1644AE1300E9077B /* cmddata.cpp in Sources */,
+				04A101BF1644AE1300E9077B /* coder.cpp in Sources */,
+				04A101C01644AE1300E9077B /* consio.cpp in Sources */,
+				04A101C11644AE1300E9077B /* crc.cpp in Sources */,
+				04A101C21644AE1300E9077B /* crypt.cpp in Sources */,
+				04A101C31644AE1300E9077B /* dll.cpp in Sources */,
+				04A101C61644AE1300E9077B /* encname.cpp in Sources */,
+				04A101C71644AE1300E9077B /* errhnd.cpp in Sources */,
+				04A101C81644AE1300E9077B /* extinfo.cpp in Sources */,
+				04A101C91644AE1300E9077B /* extract.cpp in Sources */,
+				04A101CA1644AE1300E9077B /* filcreat.cpp in Sources */,
+				04A101CB1644AE1300E9077B /* file.cpp in Sources */,
+				04A101CC1644AE1300E9077B /* filefn.cpp in Sources */,
+				04A101CD1644AE1300E9077B /* filestr.cpp in Sources */,
+				04A101CE1644AE1300E9077B /* find.cpp in Sources */,
+				04A101CF1644AE1300E9077B /* getbits.cpp in Sources */,
+				04A101D01644AE1300E9077B /* global.cpp in Sources */,
+				04A101D11644AE1300E9077B /* isnt.cpp in Sources */,
+				04A101D31644AE1300E9077B /* list.cpp in Sources */,
+				04A101D41644AE1300E9077B /* log.cpp in Sources */,
+				04A101DA1644AE1300E9077B /* match.cpp in Sources */,
+				04A101DB1644AE1300E9077B /* model.cpp in Sources */,
+				04A101DD1644AE1300E9077B /* options.cpp in Sources */,
+				04A101DE1644AE1300E9077B /* os2ea.cpp in Sources */,
+				04A101DF1644AE1300E9077B /* pathfn.cpp in Sources */,
+				04A101E01644AE1300E9077B /* rar.cpp in Sources */,
+				04A101E11644AE1300E9077B /* rarpch.cpp in Sources */,
+				04A101E21644AE1300E9077B /* rarvm.cpp in Sources */,
+				04A101E31644AE1300E9077B /* rarvmtbl.cpp in Sources */,
+				04A101E41644AE1300E9077B /* rawread.cpp in Sources */,
+				04A101E51644AE1300E9077B /* rdwrfn.cpp in Sources */,
+				04A101E71644AE1300E9077B /* recvol.cpp in Sources */,
+				04A101E81644AE1300E9077B /* resource.cpp in Sources */,
+				04A101E91644AE1300E9077B /* rijndael.cpp in Sources */,
+				04A101EA1644AE1300E9077B /* rs.cpp in Sources */,
+				04A101EB1644AE1300E9077B /* savepos.cpp in Sources */,
+				04A101EC1644AE1300E9077B /* scantree.cpp in Sources */,
+				04A101ED1644AE1300E9077B /* sha1.cpp in Sources */,
+				04A101EE1644AE1300E9077B /* smallfn.cpp in Sources */,
+				04A101EF1644AE1300E9077B /* strfn.cpp in Sources */,
+				04A101F01644AE1300E9077B /* strlist.cpp in Sources */,
+				04A101F11644AE1300E9077B /* suballoc.cpp in Sources */,
+				04A101F21644AE1300E9077B /* system.cpp in Sources */,
+				04A101F31644AE1300E9077B /* timefn.cpp in Sources */,
+				04A101F41644AE1300E9077B /* ulinks.cpp in Sources */,
+				04A101F51644AE1300E9077B /* unicode.cpp in Sources */,
+				04A101F61644AE1300E9077B /* unios2.cpp in Sources */,
+				04A101F71644AE1300E9077B /* unpack.cpp in Sources */,
+				04A101F81644AE1300E9077B /* unpack15.cpp in Sources */,
+				04A101F91644AE1300E9077B /* unpack20.cpp in Sources */,
+				04A101FC1644AE1300E9077B /* uowners.cpp in Sources */,
+				04A101FD1644AE1300E9077B /* volume.cpp in Sources */,
+				04A101FE1644AE1300E9077B /* win32acl.cpp in Sources */,
+				04A101FF1644AE1300E9077B /* win32stm.cpp in Sources */,
+				04A102001644AE1300E9077B /* Unrar4iOS.mm in Sources */,
+				04A102021644AE1300E9077B /* UnrarExampleAppDelegate.m in Sources */,
+				04A102031644AE1300E9077B /* UnrarExampleViewController.mm in Sources */,
+				04A102051644AE1300E9077B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1836,6 +2012,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/ararog-Unrar4iOS-e282da6/UnrarExample/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1867,6 +2044,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/ararog-Unrar4iOS-e282da6/UnrarExample/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MyLauncher_Prefix.pch;

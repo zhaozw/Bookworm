@@ -28,4 +28,5 @@
 
 //传入文件总大小和当前大小，得到文件的下载进度
 +(CGFloat) getProgress:(float)totalSize currentSize:(float)currentSize;
++(void)unzipFile:(NSString*)zipFile toFile:(NSString*)unzipFile;
 @end

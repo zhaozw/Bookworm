@@ -28,11 +28,11 @@
 -(void)downMusic:(id)sender
 {    
     FileModel *selectFileInfo=self.fileInfo;
-//    selectFileInfo.fileURL = @"http://www.idreems.com/example.php?iOSUIGuide.pdf";
+    selectFileInfo.fileURL = @"http://www.idreems.com/example.php?test.zip";
 //    selectFileInfo.fileName = @"iOSUIGuide.pdf";
-    selectFileInfo.fileURL = @"http://www.idreems.com/example.php?test.txt";
-    selectFileInfo.fileName = @"test.txt";
-    selectFileInfo.bookName = @"测试书籍";
+    //selectFileInfo.fileURL = @"http://www.txtbook.com.cn/txtbuk/download.asp?softid=16338&downid=7&id=17334";
+    selectFileInfo.fileName = @"test.zip";
+    selectFileInfo.bookName = @"测试书籍2";
     
     //选择点击的行
 //    UITableView *tableView=(UITableView *)[sender superview];

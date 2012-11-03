@@ -7,7 +7,7 @@
 //
 
 #import "CommonHelper.h"
-
+#import "ZipArchive.h"
 
 @implementation CommonHelper
 
@@ -89,5 +89,17 @@
 +(float)getProgress:(float)totalSize currentSize:(float)currentSize
 {
     return currentSize/totalSize;
+}
++(void)unzipFile:(NSString*)zipFile toFile:(NSString*)unzipFile
+{
+    ZipArchive* zip = [[ZipArchive alloc] init];
+    if( [zip UnzipOpenFile:zipFile] ){
+        BOOL result = [zip UnzipFileTo:unzipFile overWrite:YES];
+        if( NO==result ){
+            //添加代码
+        }
+        [zip UnzipCloseFile];
+    }
+    [zip release];
 }
 @end
